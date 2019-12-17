@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Receipt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/PatientContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/PatientContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ProductID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/WrongCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/HealthCardID.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +24,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="211" />
+          <entry key="JAVA" value="602" />
         </counts>
       </usages-collector>
     </session>
@@ -53,27 +50,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/HealthCardID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/WrongCodeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/ProductID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="363">
               <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -96,8 +106,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Data/PatientContr.java" />
         <option value="$PROJECT_DIR$/src/data/PatientContr.java" />
-        <option value="$PROJECT_DIR$/src/data/HealthCardID.java" />
         <option value="$PROJECT_DIR$/src/data/ProductID.java" />
+        <option value="$PROJECT_DIR$/src/data/WrongCodeException.java" />
+        <option value="$PROJECT_DIR$/src/data/HealthCardID.java" />
       </list>
     </option>
   </component>
@@ -155,7 +166,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576611338883" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576618800362" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Receipt" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -198,7 +209,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.23131673" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.08718861" />
       <window_info anchor="bottom" id="Terminal" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -285,25 +296,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/HealthCardID.java">
+    <entry file="file://$PROJECT_DIR$/src/data/ProductID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="363">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/WrongCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/ProductID.java">
+    <entry file="file://$PROJECT_DIR$/src/data/HealthCardID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="136">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

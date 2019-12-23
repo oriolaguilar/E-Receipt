@@ -4,7 +4,7 @@ import data.WrongCodeException;
 
 public interface DataTest {
 
-    void initializeObject() throws WrongCodeException;
+    void setUp() throws WrongCodeException;
     void testGetter();
     void testEquals() throws WrongCodeException;
 ;

@@ -12,7 +12,7 @@ public class HealthCardIDTest implements DataTest{
 
     @BeforeEach
     @Override
-    public void initializeObject() throws WrongCodeException {
+    public void setUp() throws WrongCodeException {
         healthcard = new HealthCardID("ABCD1234567890");
     }
 

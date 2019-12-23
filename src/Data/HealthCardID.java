@@ -5,8 +5,7 @@ final public class HealthCardID {
     private final String personalID;
 
     public HealthCardID(String code) throws WrongCodeException {
-        if (code == null && !correctCode(code))
-            throw new WrongCodeException();
+        if (code == null || !correctCode(code)) throw new WrongCodeException();
 
         this. personalID = code;
     }
@@ -16,7 +15,7 @@ final public class HealthCardID {
         boolean prefix = true;
 
         for(int i = 0; i < 4; i++){
-            if (!Character.isDigit(code.charAt(i))) prefix = false;
+            if (!Character.isLetter(code.charAt(i))) prefix = false;
         }
 
         return length && prefix;

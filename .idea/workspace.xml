@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Data/PatientContrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/PatientContrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/HealthCardID.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +22,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="175" />
+          <entry key="JAVA" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/HealthCardID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="e#939#940#0" expanded="true" />
                 <element signature="e#983#984#0" expanded="true" />
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -80,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="119">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -153,6 +152,8 @@
         <option value="$PROJECT_DIR$/src/data/WrongCodeException.java" />
         <option value="$PROJECT_DIR$/src/data/PatientContr.java" />
         <option value="$PROJECT_DIR$/Test/Data/PatientContrTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" />
         <option value="$PROJECT_DIR$/src/data/HealthCardID.java" />
       </list>
     </option>
@@ -218,7 +219,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577124413927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577139544790" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HealthCardIDTest">
+  <component name="RunManager" selected="JUnit.HealthCardIdSetUpExceptionsTest">
     <configuration name="HealthCardIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
@@ -284,8 +285,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HealthCardIDTest" />
         <item itemvalue="JUnit.HealthCardIdSetUpExceptionsTest" />
+        <item itemvalue="JUnit.HealthCardIDTest" />
         <item itemvalue="JUnit.HealthCardIDTest.testGetter" />
       </list>
     </recent_temporary>
@@ -313,12 +314,27 @@
     <history-entry file="HealthCardIdSetUpExceptionsTest - 2019.12.23 at 19h 00m 49s.xml">
       <configuration name="HealthCardIdSetUpExceptionsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HealthCardIDTest - 2019.12.23 at 19h 07m 04s.xml">
+      <configuration name="HealthCardIDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HealthCardIDTest - 2019.12.23 at 23h 11m 41s.xml">
+      <configuration name="HealthCardIDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HealthCardIdSetUpExceptionsTest - 2019.12.23 at 23h 12m 03s.xml">
+      <configuration name="HealthCardIdSetUpExceptionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HealthCardIdSetUpExceptionsTest - 2019.12.23 at 23h 16m 39s.xml">
+      <configuration name="HealthCardIdSetUpExceptionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HealthCardIDTest - 2019.12.23 at 23h 16m 56s.xml">
+      <configuration name="HealthCardIDTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,14 +343,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.33985764" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.09430605" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.05871886" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.22597864" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -451,6 +467,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/WrongCodeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -458,27 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/HealthCardID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#939#940#0" expanded="true" />
             <element signature="e#983#984#0" expanded="true" />

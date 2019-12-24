@@ -8,10 +8,14 @@ final public class PatientContr {
 
     public PatientContr (BigDecimal contr) throws WrongCodeException {
 
-        if (contr == null) throw new WrongCodeException();
+        if (contr == null || !correctContr(contr))
+            throw new WrongCodeException("Wrong number. Must be a number lower than 1.00");
         this.contribution = contr;
     }
 
+    private boolean correctContr(BigDecimal contr){
+        return contr.floatValue() < 1.000;
+    }
     public BigDecimal getContribution() {
         return contribution;
     }

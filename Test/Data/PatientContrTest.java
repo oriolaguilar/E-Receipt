@@ -29,6 +29,8 @@ public class PatientContrTest implements DataTest {
     @Test
     @Override
     public void testEquals() throws WrongCodeException {
+        PatientContr copyContibution = new PatientContr(new BigDecimal(0.22));
+        assertEquals(contribution, copyContibution);
 
     }
 }

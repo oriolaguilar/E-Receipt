@@ -1,26 +1,27 @@
 package Data;
 
-import data.HealthCardID;
+import data.PatientContr;
 import data.WrongCodeException;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import java.math.BigDecimal;
 
-public class HealthCardIdSetUpExceptionsTest implements WrongCodeTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+public class PatientContrSetUpExceptionsTest implements WrongCodeTest {
 
     @Test
     @Override
     public void setUpNull() {
         assertThrows(WrongCodeException.class,
-                () -> new HealthCardID(null));
+                () -> new PatientContr(null));
     }
 
     @Test
     @Override
     public void setUpWrong() {
         assertThrows(WrongCodeException.class,
-                () -> new HealthCardID("456AFGHDFGHJGFG"));
+                () -> new PatientContr(new BigDecimal(1.2)));
+
     }
-
-
 }

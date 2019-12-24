@@ -1,12 +1,13 @@
 package Data;
 
+import Data.TestInterfaces.DataTest;
 import data.HealthCardID;
-import data.WrongCodeException;
+import data.Exceptions.WrongCodeException;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class HealthCardIDTest implements DataTest{
+public class HealthCardIDTest implements DataTest {
 
     HealthCardID healthcard;
 

@@ -1,5 +1,7 @@
 package data;
 
+import data.Exceptions.WrongCodeException;
+
 import java.math.BigDecimal;
 
 final public class PatientContr {
@@ -16,15 +18,22 @@ final public class PatientContr {
     private boolean correctContr(BigDecimal contr){
         return contr.floatValue() < 1.000;
     }
+
     public BigDecimal getContribution() {
         return contribution;
     }
 
+    @Override
     public boolean equals(Object o){
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PatientContr patCont = (PatientContr) o;
         return contribution.equals(patCont.contribution);
 
+    }
+
+    @Override
+    public String toString(){
+        return "Patient Contribution{ Contribution: "+contribution.toString()+ '\'' + '}';
     }
 }

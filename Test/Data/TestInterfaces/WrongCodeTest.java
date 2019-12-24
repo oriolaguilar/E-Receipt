@@ -1,4 +1,4 @@
-package Data;
+package Data.TestInterfaces;
 
 public interface WrongCodeTest {
 

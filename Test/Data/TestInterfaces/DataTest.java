@@ -1,6 +1,6 @@
-package Data;
+package Data.TestInterfaces;
 
-import data.WrongCodeException;
+import data.Exceptions.WrongCodeException;
 
 public interface DataTest {
 

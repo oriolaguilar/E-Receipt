@@ -1,11 +1,14 @@
 package data;
 
+import data.Exceptions.WrongCodeException;
+
 final public class HealthCardID {
 
     private final String personalID;
 
     public HealthCardID(String code) throws WrongCodeException {
-        if (code == null || !correctCode(code)) throw new WrongCodeException("Wrong code, check the restrictions!");
+        if (code == null || !correctCode(code))
+            throw new WrongCodeException("Wrong code, check the restrictions!");
 
         this. personalID = code;
     }

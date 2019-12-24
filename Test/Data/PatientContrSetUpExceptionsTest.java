@@ -1,7 +1,8 @@
 package Data;
 
+import Data.TestInterfaces.WrongCodeTest;
 import data.PatientContr;
-import data.WrongCodeException;
+import data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

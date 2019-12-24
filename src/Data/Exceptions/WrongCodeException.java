@@ -1,4 +1,4 @@
-package data;
+package data.Exceptions;
 
 public class WrongCodeException extends Exception {
 

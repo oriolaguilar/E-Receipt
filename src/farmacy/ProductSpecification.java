@@ -10,14 +10,19 @@ import java.util.List;
 
 public class ProductSpecification implements NathionalHealthService {
 
-    data.ProductID productID;
+    private ProductID productID;
 
-    String description;
+    private String description;
 
-    int price;
+    private int price;
 
 
     public ProductSpecification(ProductID productID, String description, int price){
+        this.productID= productID;
+        this.description = description;
+        this.price=price;
+    }
+    public ProductSpecification(ProductID productID){
         this.productID= productID;
     }
 

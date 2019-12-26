@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="Finished Sale (No test) and PSL (No test) and tests of ProductSpecification">
-      <change afterPath="$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java" afterDir="false" />
+    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Receipt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/E-Receipt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Dispensing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Dispensing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Dispensing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Sale.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,7 +110,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="17">
               <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -250,7 +243,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -309,7 +302,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577379260514" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577381774446" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -466,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577274869113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Sale (No test) and PSL (No test) and tests of ProductSpecification">
+      <created>1577379365780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577379365780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished Sale (No test) and PSL (No test) and tests of ProductSpecification">
+      <created>1577381462060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577381462060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -491,8 +499,14 @@
     <history-entry file="ProductSpecificationTest_getProductSpecific - 2019.12.26 at 12h 26m 18s.xml">
       <configuration name="ProductSpecificationTest.getProductSpecific" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductSpecificationTest_getProductSpecific - 2019.12.26 at 18h 07m 15s.xml">
+      <configuration name="ProductSpecificationTest.getProductSpecific" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSpecificationTest_getProductSpecific - 2019.12.26 at 18h 30m 52s.xml">
+      <configuration name="ProductSpecificationTest.getProductSpecific" configurationId="JUnit" />
+    </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -503,10 +517,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.088621445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04317697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,15 +528,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33296824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.95227766" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.95119303" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.30585682" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3231106" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.9110629" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3231106" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -690,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -723,9 +726,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="17">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -1,8 +1,9 @@
 package farmacy;
 
+import Data.Interfaces.ProductIDInter;
+import Data.ProductID;
 import data.HealthCardID;
-import data.PatientContr;
-import data.ProductID;
+import Data.PatientContr;
 import services.NathionalHealthService;
 
 import java.util.Date;
@@ -37,9 +38,10 @@ public class Dispensing implements NathionalHealthService {
     }
 
     @Override
-    public ProductSpecification getProductSpecific(ProductID pID) {
+    public ProductSpecification getProductSpecific(ProductIDInter pID) {
         return null;
     }
+
 
     @Override
     public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {

@@ -1,7 +1,7 @@
 package Data;
 
 import Data.TestInterfaces.DataTest;
-import data.ProductID;
+import Data.ProductID;
 import data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

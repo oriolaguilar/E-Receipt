@@ -2,11 +2,12 @@ package farmacy;
 
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import data.ProductID;
-import data.PatientContr;
+import Data.Interfaces.ProductIDInter;
+import Data.Interfaces.PatientContrInter;
 
 
 public class Sale {
@@ -14,26 +15,28 @@ public class Sale {
 
     private Date date;
 
-    private BigDecimal amount;
+    private BigDecimal amount= new BigDecimal(0);
 
     private boolean isClosed;
 
-    private static final BigDecimal IVA = new BigDecimal (0.21);
+    private static final BigDecimal IVA = new BigDecimal (1.21);
 
-    private List<BigDecimal> prices;
+    private List<BigDecimal> prices = new ArrayList<>();
+
+    private ProductSaleLine psl;
 
     public Sale(int saleCode){
         this.saleCode = saleCode;
         this.date = new Date();
     }
 
-    public void addLine(ProductID productID, BigDecimal price, PatientContr contr){
-        ProductSaleLine psl = new ProductSaleLine(productID,price,contr);
+    public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
+        psl = new ProductSaleLine(productID,price,contr);
         prices.add(price);
     }
     private void calculateAmount(){
-        for (int i = 0; i<prices.size();i++){
-            amount= amount.add(prices.get(i));
+        for (BigDecimal i: prices){
+            amount = amount.add(i);
         }
     }
     private void addTaxes(){
@@ -46,17 +49,15 @@ public class Sale {
         return amount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
-    }
-
-    public void setClosed(boolean closed) {
-        isClosed = closed;
+    public void setClosed() {
+        isClosed = true;
     }
     public boolean isClosed() {
         return isClosed;
     }
 
 
-
+    public ProductSaleLine getPsl() {
+        return psl;
+    }
 }

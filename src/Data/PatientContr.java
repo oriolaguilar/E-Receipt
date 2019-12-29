@@ -1,10 +1,11 @@
-package data;
+package Data;
 
+import Data.Interfaces.PatientContrInter;
 import data.Exceptions.WrongCodeException;
 
 import java.math.BigDecimal;
 
-final public class PatientContr {
+final public class PatientContr implements PatientContrInter{
 
     private BigDecimal contribution;
 
@@ -19,6 +20,7 @@ final public class PatientContr {
         return contr.floatValue() < 1.000;
     }
 
+    @Override
     public BigDecimal getContribution() {
         return contribution;
     }

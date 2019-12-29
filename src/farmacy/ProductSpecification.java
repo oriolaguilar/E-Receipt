@@ -1,8 +1,8 @@
 package farmacy;
 
+import Data.Interfaces.ProductIDInter;
 import data.HealthCardID;
-import data.PatientContr;
-import data.ProductID;
+import Data.PatientContr;
 import services.NathionalHealthService;
 
 import java.util.List;
@@ -10,19 +10,19 @@ import java.util.List;
 
 public class ProductSpecification implements NathionalHealthService {
 
-    private ProductID productID;
+    private ProductIDInter productID;
 
     private String description;
 
     private int price;
 
 
-    public ProductSpecification(ProductID productID, String description, int price){
+    public ProductSpecification(ProductIDInter productID, String description, int price){
         this.productID= productID;
         this.description = description;
         this.price=price;
     }
-    public ProductSpecification(ProductID productID){
+    public ProductSpecification(ProductIDInter productID){
         this.productID= productID;
     }
 
@@ -53,7 +53,7 @@ public class ProductSpecification implements NathionalHealthService {
     }
 
     @Override
-    public ProductSpecification getProductSpecific(ProductID productID) {
+    public ProductSpecification getProductSpecific(ProductIDInter productID) {
         return new ProductSpecification(productID,getDescription(),getPrice());
     }
 

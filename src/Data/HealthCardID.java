@@ -1,8 +1,9 @@
 package data;
 
+import Data.Interfaces.HealthCardIDInter;
 import data.Exceptions.WrongCodeException;
 
-final public class HealthCardID {
+final public class HealthCardID implements HealthCardIDInter {
 
     private final String personalID;
 
@@ -24,6 +25,7 @@ final public class HealthCardID {
         return length && prefix;
     }
 
+    @Override
     public String getPersonalID() {
         return personalID;
     }
@@ -44,4 +46,5 @@ final public class HealthCardID {
     public String toString() {
         return "HealthCardID{" + "personal code='" + personalID + '\'' + '}';
     }
+
 }

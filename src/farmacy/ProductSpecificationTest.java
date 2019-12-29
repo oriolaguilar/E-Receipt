@@ -1,24 +1,40 @@
 package farmacy;
 
-import org.junit.jupiter.api.BeforeAll;
+import Data.Interfaces.ProductIDInter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import data.ProductID;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductSpecificationTest {
 
-    ProductID productID = new ProductID("ABC");
-    ProductSpecification ps;
-    ProductID productID2 = new ProductID("123");
-    ProductSpecification ps2;
+    private ProductIDInter productIDInter;
+    private ProductIDInter productIDInter2;
+    private ProductSpecification ps;
+    private ProductSpecification ps2;
+    
+
+    private static class ProductIDDouble implements ProductIDInter{
+        private final String UPC;
+
+        public ProductIDDouble(String UPC){
+            this.UPC=UPC;
+        }
+
+        public String getUPC(){
+            return this.UPC;
+        }
+    }
 
 
     @BeforeEach
     void setup(){
-        ps = new ProductSpecification(productID,"Medicament",23);
-        ps2 = new ProductSpecification(productID2);
+        productIDInter = new ProductIDDouble("ABC");
+        productIDInter2 = new ProductIDDouble("123");
+        
+        ps = new ProductSpecification(productIDInter,"Medicament",23);
+        ps2 = new ProductSpecification(productIDInter2);
 
     }
     @Test
@@ -47,9 +63,10 @@ class ProductSpecificationTest {
 
     @Test
     void getProductSpecific() {
-        ProductSpecification ps3 = ps.getProductSpecific(productID);
-        assertEquals(ps3.getPrice(),ps.getPrice());
+        ProductSpecification ps3 = ps.getProductSpecific(productIDInter);
         assertEquals(ps3.getDescription(),ps.getDescription());
+        assertEquals(ps3.getPrice(),ps.getPrice());
+        assertNotEquals(ps3.getProductSpecific(productIDInter),ps2.getProductSpecific(productIDInter2));
     }
 
 }

@@ -1,7 +1,7 @@
-package data;
+package Data;
 
+import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.HealthCardIDInter;
-import data.Exceptions.WrongCodeException;
 
 final public class HealthCardID implements HealthCardIDInter {
 

@@ -1,7 +1,7 @@
 package Data;
 
+import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.ProductIDInter;
-import data.Exceptions.WrongCodeException;
 
 final public class ProductID implements ProductIDInter {
 

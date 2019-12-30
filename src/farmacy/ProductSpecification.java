@@ -1,7 +1,7 @@
 package farmacy;
 
 import Data.Interfaces.ProductIDInter;
-import data.HealthCardID;
+import Data.HealthCardID;
 import Data.PatientContr;
 import services.NathionalHealthService;
 

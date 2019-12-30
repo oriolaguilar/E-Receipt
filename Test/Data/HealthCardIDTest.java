@@ -1,8 +1,8 @@
 package Data;
 
 import Data.TestInterfaces.DataTest;
-import data.HealthCardID;
-import data.Exceptions.WrongCodeException;
+import Data.HealthCardID;
+import Data.Exceptions.WrongCodeException;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -30,5 +30,13 @@ public class HealthCardIDTest implements DataTest {
         HealthCardID healthcardCopy = new HealthCardID("ABCD1234567890");
         assertEquals(healthcard, healthcardCopy);
 
+    }
+
+    @Test
+    @Override
+    public void testHash() {
+        String code = "ABCD1234567890";
+        int hashCode = code.hashCode();
+        assertEquals(hashCode, healthcard.hashCode());
     }
 }

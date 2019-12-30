@@ -1,7 +1,7 @@
 package Data;
 
+import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.PatientContrInter;
-import data.Exceptions.WrongCodeException;
 
 import java.math.BigDecimal;
 
@@ -32,6 +32,10 @@ final public class PatientContr implements PatientContrInter{
         PatientContr patCont = (PatientContr) o;
         return contribution.equals(patCont.contribution);
 
+    }
+    @Override
+    public int hashCode(){
+        return contribution.hashCode();
     }
 
     @Override

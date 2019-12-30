@@ -1,11 +1,12 @@
 package Data;
 
 import Data.TestInterfaces.WrongCodeTest;
-import data.HealthCardID;
-import data.Exceptions.WrongCodeException;
+import Data.HealthCardID;
+import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HealthCardIdSetUpExceptionsTest implements WrongCodeTest {
 
@@ -22,6 +23,5 @@ public class HealthCardIdSetUpExceptionsTest implements WrongCodeTest {
         assertThrows(WrongCodeException.class,
                 () -> new HealthCardID("456AFGHDFGHJGFG"));
     }
-
 
 }

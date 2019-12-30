@@ -1,7 +1,7 @@
 package Data;
 
 import Data.TestInterfaces.WrongCodeTest;
-import data.Exceptions.WrongCodeException;
+import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

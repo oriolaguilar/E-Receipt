@@ -7,8 +7,8 @@ import farmacy.ProductSpecification;
 import java.util.List;
 
 public interface NathionalHealthService {
-    Dispensing getePrescription(data.HealthCardID hcID);
-    Data.PatientContr getPatientCont(data.HealthCardID hcID);
+    Dispensing getePrescription(Data.HealthCardID hcID);
+    Data.PatientContr getPatientCont(Data.HealthCardID hcID);
     ProductSpecification getProductSpecific(ProductIDInter pID);
-    List<Dispensing> updateePrescription(data.HealthCardID hcID, Dispensing disp);
+    List<Dispensing> updateePrescription(Data.HealthCardID hcID, Dispensing disp);
 }

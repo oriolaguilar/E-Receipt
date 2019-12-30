@@ -1,15 +1,14 @@
 package Data;
 
 import Data.TestInterfaces.DataTest;
-import Data.PatientContr;
-import data.Exceptions.WrongCodeException;
+import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PatientContrTest implements DataTest {
+    public class PatientContrTest implements DataTest {
 
     PatientContr contribution;
     BigDecimal number = new BigDecimal(0.22);
@@ -33,5 +32,13 @@ public class PatientContrTest implements DataTest {
         PatientContr copyContibution = new PatientContr(new BigDecimal(0.22));
         assertEquals(contribution, copyContibution);
 
+    }
+
+    @Test
+    @Override
+    public void testHash() {
+        BigDecimal contr = new BigDecimal(0.22);
+        int hashCode = contr.hashCode();
+        assertEquals(hashCode, contribution.hashCode());
     }
 }

@@ -31,7 +31,7 @@ public class Sale {
     }
 
     public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
-        psl = new ProductSaleLine(productID,price,contr);
+        psl = new ProductSaleLine(productID,price,contr); //No t'he sentit
         prices.add(price);
     }
     private void calculateAmount(){

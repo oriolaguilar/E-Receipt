@@ -17,8 +17,8 @@ public class ProductSaleLine implements ProductSaleLineInter {
 
     public ProductSaleLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
         this.productID = productID;
-        this.price= price;
-        this.contr= contr;
+        this.price = price;
+        this.contr = contr;
     }
     public ProductSaleLine(ProductIDInter productID){
         this.productID=productID;

@@ -3,12 +3,12 @@ package farmacy;
 import Data.Interfaces.ProductIDInter;
 import Data.HealthCardID;
 import Data.PatientContr;
-import services.NathionalHealthService;
+import services.NationalHealthService;
 
 import java.util.List;
 
 
-public class ProductSpecification implements NathionalHealthService {
+public class ProductSpecification implements NationalHealthService {
 
     private ProductIDInter productID;
 
@@ -18,9 +18,9 @@ public class ProductSpecification implements NathionalHealthService {
 
 
     public ProductSpecification(ProductIDInter productID, String description, int price){
-        this.productID= productID;
+        this.productID = productID;
         this.description = description;
-        this.price=price;
+        this.price = price;
     }
     public ProductSpecification(ProductIDInter productID){
         this.productID= productID;

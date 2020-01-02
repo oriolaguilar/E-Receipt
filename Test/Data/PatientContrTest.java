@@ -30,7 +30,7 @@ import static org.junit.jupiter.api.Assertions.*;
     @Override
     public void testEquals() throws WrongCodeException {
         PatientContr copyContibution = new PatientContr(new BigDecimal(0.22));
-        assertEquals(contribution, copyContibution);
+        assertEquals(copyContibution, contribution);
 
     }
 

@@ -1,32 +1,14 @@
-package farmacy;
+package services;
 
-import Data.Interfaces.ProductIDInter;
-import Data.ProductID;
 import Data.HealthCardID;
+import Data.Interfaces.ProductIDInter;
 import Data.PatientContr;
-import services.NationalHealthService;
+import farmacy.Dispensing;
+import farmacy.ProductSpecification;
 
-import java.util.Date;
 import java.util.List;
 
-public class Dispensing implements NationalHealthService {
-
-    private byte nOrder;
-
-    private Date initDate, finalDate;
-
-    private boolean isCompleted;
-
-    public Dispensing(){
-
-    }
-
-    public boolean dispensingEnabled(){return true;
-    }
-
-    public void setProductAsDispensed(ProductID productID){}
-
-    public void setCompleted(){}
+public class NationalHealthServices implements NationalHealthService {
     @Override
     public Dispensing getePrescription(HealthCardID hcID) {
         return null;
@@ -41,7 +23,6 @@ public class Dispensing implements NationalHealthService {
     public ProductSpecification getProductSpecific(ProductIDInter pID) {
         return null;
     }
-
 
     @Override
     public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {

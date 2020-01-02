@@ -28,7 +28,7 @@ public class HealthCardIDTest implements DataTest {
     @Override
     public void testEquals() throws WrongCodeException {
         HealthCardID healthcardCopy = new HealthCardID("ABCD1234567890");
-        assertEquals(healthcard, healthcardCopy);
+        assertEquals(healthcardCopy, healthcard);
 
     }
 

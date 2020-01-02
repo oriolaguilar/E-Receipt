@@ -27,7 +27,7 @@ public class ProductIDTest implements DataTest {
     @Override
     public void testEquals() throws WrongCodeException {
         ProductID copyProductId = new ProductID("1234567890");
-        assertEquals(productID, copyProductId);
+        assertEquals(copyProductId, productID);
 
     }
 

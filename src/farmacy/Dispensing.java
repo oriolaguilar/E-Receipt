@@ -5,15 +5,12 @@ import Data.ProductID;
 import Data.HealthCardID;
 import Data.PatientContr;
 import farmacy.Exceptions.DispensingNotAvailableException;
-import services.NationalHealthService;
+import services.NathionalHealthService;
 
 import java.util.*;
 
-<<<<<<< HEAD
-public class Dispensing implements NationalHealthService {
-=======
-public class Dispensing {
->>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+
+public class Dispensing implements NathionalHealthService {
 
     private byte nOrder;
 
@@ -95,18 +92,22 @@ public class Dispensing {
         prescription = newPrescription;
     }
 
-<<<<<<< HEAD
     @Override
     public Dispensing getePrescription(HealthCardID hcID) {
         return null;
     }
 
     @Override
-    public PatientContr getPatientCont(HealthCardID hcID) {
+    public PatientContr getPatientContr(HealthCardID hcID) {
         return null;
     }
-=======
-    public void setCompleted(){}
->>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+    @Override
+    public ProductSpecification getProductSpecific(ProductIDInter pID) {
+        return null;
+    }
 
+    @Override
+    public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {
+        return null;
+    }
 }

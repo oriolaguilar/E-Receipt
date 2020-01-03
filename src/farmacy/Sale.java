@@ -31,17 +31,12 @@ public class Sale {
         this.date = new Date();
     }
 
-<<<<<<< HEAD
-    public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
-        psl = new ProductSaleLine(productID,price,contr); //No t'he sentit
-=======
     public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr) throws SaleClosedException {
         if (isClosed()){
             throw new SaleClosedException("Sale is closed");
         }
         psl = new ProductSaleLine(getSaleCode(),productID,contr);
         psl.setPrice(price);
->>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
         prices.add(price);
     }
     private void calculateAmount(){

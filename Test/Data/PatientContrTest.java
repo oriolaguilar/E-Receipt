@@ -1,10 +1,7 @@
 package Data;
 
 import Data.TestInterfaces.DataTest;
-<<<<<<< HEAD
-=======
 import Data.PatientContr;
->>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

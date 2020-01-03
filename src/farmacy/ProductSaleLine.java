@@ -6,22 +6,16 @@ import farmacy.Interfaces.ProductSaleLineInter;
 
 import java.math.BigDecimal;
 
-public class ProductSaleLine implements ProductSaleLineInter {
+public class ProductSaleLine extends Sale {
 
     private ProductIDInter productID;
-
+    private PatientContrInter contr;
     private BigDecimal price;
 
-    private PatientContrInter contr;
-
-
-    public ProductSaleLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
-        this.productID = productID;
-        this.price= price;
-        this.contr= contr;
-    }
-    public ProductSaleLine(ProductIDInter productID){
+    public ProductSaleLine(int saleCode,ProductIDInter productID,PatientContrInter contr) {
+        super(saleCode);
         this.productID=productID;
+        this.contr=contr;
     }
 
     public BigDecimal getPrice() {

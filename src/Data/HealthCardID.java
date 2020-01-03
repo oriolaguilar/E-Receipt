@@ -1,9 +1,9 @@
-package data;
+package Data;
 
 import Data.Interfaces.HealthCardIDInter;
-import data.Exceptions.WrongCodeException;
+import Data.Exceptions.WrongCodeException;
 
-final public class HealthCardID implements HealthCardIDInter {
+final public class HealthCardID implements HealthCardIDInter{
 
     private final String personalID;
 

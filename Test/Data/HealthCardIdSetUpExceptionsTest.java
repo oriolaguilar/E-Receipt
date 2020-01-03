@@ -1,8 +1,8 @@
 package Data;
 
 import Data.TestInterfaces.WrongCodeTest;
-import data.HealthCardID;
-import data.Exceptions.WrongCodeException;
+import Data.HealthCardID;
+import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

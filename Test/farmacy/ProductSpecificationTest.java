@@ -60,13 +60,4 @@ class ProductSpecificationTest {
         int price = 23;
         assertEquals(price,ps.getPrice());
     }
-
-    @Test
-    void getProductSpecific() {
-        ProductSpecification ps3 = ps.getProductSpecific(productIDInter);
-        assertEquals(ps3.getDescription(),ps.getDescription());
-        assertEquals(ps3.getPrice(),ps.getPrice());
-        assertNotEquals(ps3.getProductSpecific(productIDInter),ps2.getProductSpecific(productIDInter2));
-    }
-
 }

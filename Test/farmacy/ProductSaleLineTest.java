@@ -16,6 +16,7 @@ class ProductSaleLineTest{
     private PatientContrInter contr;
     private BigDecimal price;
     private ProductSaleLine psl;
+    private Sale sale;
 
     private static class ProductIDDouble implements ProductIDInter{
         private final String UPC;
@@ -40,14 +41,13 @@ class ProductSaleLineTest{
 
     }
 
-
     @BeforeEach
     void setup(){
+        sale = new Sale (100);
         productIDInter = new ProductIDDouble("ABC");
         contr = new PatientContrDouble(new BigDecimal(80));
         price = (new BigDecimal(30));
-        psl= new ProductSaleLine(productIDInter, price, contr);
-
+        psl= new ProductSaleLine(sale.getSaleCode(),productIDInter,contr);
     }
 
     @Test
@@ -59,7 +59,9 @@ class ProductSaleLineTest{
 
     @Test
     void getPrice() {
-        assertEquals(psl.getPrice(),new BigDecimal(30));
+        BigDecimal price = new BigDecimal(21);
+        psl.setPrice(price);
+        assertEquals(psl.getPrice(),new BigDecimal(21));
         assertNotEquals(psl.getPrice(),new BigDecimal(35));
     }
 
@@ -72,7 +74,7 @@ class ProductSaleLineTest{
     void setContr() {
         PatientContrInter contr2 = new PatientContrDouble(new BigDecimal(100));
         psl.setContr(contr2);
-        assertEquals(psl.getContr(),new BigDecimal(100));
+        assertEquals(psl.getContr().getContribution(),new BigDecimal(100));
         assertNotEquals(psl.getContr(), new BigDecimal(80));
     }
 }

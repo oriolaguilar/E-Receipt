@@ -2,14 +2,14 @@ package farmacy;
 
 import Data.Interfaces.ProductIDInter;
 import Data.ProductID;
-import data.HealthCardID;
+import Data.HealthCardID;
 import Data.PatientContr;
 import services.NathionalHealthService;
 
 import java.util.Date;
 import java.util.List;
 
-public class Dispensing implements NathionalHealthService {
+public class Dispensing {
 
     private byte nOrder;
 
@@ -27,24 +27,5 @@ public class Dispensing implements NathionalHealthService {
     public void setProductAsDispensed(ProductID productID){}
 
     public void setCompleted(){}
-    @Override
-    public Dispensing getePrescription(HealthCardID hcID) {
-        return null;
-    }
 
-    @Override
-    public PatientContr getPatientCont(HealthCardID hcID) {
-        return null;
-    }
-
-    @Override
-    public ProductSpecification getProductSpecific(ProductIDInter pID) {
-        return null;
-    }
-
-
-    @Override
-    public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {
-        return null;
-    }
 }

@@ -3,12 +3,14 @@ package services;
 import Data.Interfaces.ProductIDInter;
 import farmacy.Dispensing;
 import farmacy.ProductSpecification;
+import Data.PatientContr;
+import Data.HealthCardID;
 
 import java.util.List;
 
 public interface NathionalHealthService {
-    Dispensing getePrescription(data.HealthCardID hcID);
-    Data.PatientContr getPatientCont(data.HealthCardID hcID);
+    Dispensing getePrescription(HealthCardID hcID);
+    PatientContr getPatientContr (HealthCardID hcID);
     ProductSpecification getProductSpecific(ProductIDInter pID);
-    List<Dispensing> updateePrescription(data.HealthCardID hcID, Dispensing disp);
+    List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp);
 }

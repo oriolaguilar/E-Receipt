@@ -1,7 +1,7 @@
 package Data;
 
 import Data.Interfaces.PatientContrInter;
-import data.Exceptions.WrongCodeException;
+import Data.Exceptions.WrongCodeException;
 
 import java.math.BigDecimal;
 

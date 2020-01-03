@@ -8,6 +8,7 @@ import java.util.List;
 
 import Data.Interfaces.ProductIDInter;
 import Data.Interfaces.PatientContrInter;
+import farmacy.Exceptions.SaleClosedException;
 
 
 public class Sale {
@@ -30,8 +31,17 @@ public class Sale {
         this.date = new Date();
     }
 
+<<<<<<< HEAD
     public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
         psl = new ProductSaleLine(productID,price,contr); //No t'he sentit
+=======
+    public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr) throws SaleClosedException {
+        if (isClosed()){
+            throw new SaleClosedException("Sale is closed");
+        }
+        psl = new ProductSaleLine(getSaleCode(),productID,contr);
+        psl.setPrice(price);
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
         prices.add(price);
     }
     private void calculateAmount(){
@@ -39,11 +49,17 @@ public class Sale {
             amount = amount.add(i);
         }
     }
-    private void addTaxes(){
+    private void addTaxes() throws SaleClosedException{
+        if (isClosed()){
+            throw new SaleClosedException("Sale is closed");
+        }
         amount = IVA.multiply(amount);
     }
 
-    public BigDecimal getAmount() {
+    public BigDecimal getAmount() throws SaleClosedException{
+        if (isClosed()){
+            throw new SaleClosedException("Sale is closed");
+        }
         calculateAmount();
         addTaxes();
         return amount;
@@ -57,7 +73,5 @@ public class Sale {
     }
 
 
-    public ProductSaleLine getPsl() {
-        return psl;
-    }
+    public int getSaleCode(){return this.saleCode;}
 }

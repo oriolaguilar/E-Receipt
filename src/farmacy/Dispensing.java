@@ -9,7 +9,11 @@ import services.NationalHealthService;
 
 import java.util.*;
 
+<<<<<<< HEAD
 public class Dispensing implements NationalHealthService {
+=======
+public class Dispensing {
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 
     private byte nOrder;
 
@@ -91,6 +95,7 @@ public class Dispensing implements NationalHealthService {
         prescription = newPrescription;
     }
 
+<<<<<<< HEAD
     @Override
     public Dispensing getePrescription(HealthCardID hcID) {
         return null;
@@ -100,15 +105,8 @@ public class Dispensing implements NationalHealthService {
     public PatientContr getPatientCont(HealthCardID hcID) {
         return null;
     }
+=======
+    public void setCompleted(){}
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 
-    @Override
-    public ProductSpecification getProductSpecific(ProductIDInter pID) {
-        return null;
-    }
-
-
-    @Override
-    public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {
-        return null;
-    }
 }

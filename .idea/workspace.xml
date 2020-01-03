@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Test/farmacy/Exceptions/SaleClosedExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/HealthCardReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/HealthCardReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/PatientContrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/PatientContrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/ProductIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/ProductIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/farmacy/SaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/SaleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/Data/Exceptions/WrongCodeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/Data/Exceptions/WrongCodeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/Data/HealthCardID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/Data/HealthCardID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/Data/PatientContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/Data/PatientContr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/Data/ProductID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/Data/ProductID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Dispensing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Dispensing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/ProductSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/ProductSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/farmacy/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/E-Receipt/services/NathionalHealthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/E-Receipt/services/NathionalHealthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/HealthCardIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/HealthCardIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/HealthCardIdSetUpExceptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/HealthCardIdSetUpExceptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/PatientContrSetUpExceptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/PatientContrSetUpExceptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/PatientContrTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/PatientContrTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/ProductIDSetUpExceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/ProductIDSetUpExceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/ProductIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/ProductIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/Data/TestInterfaces/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/Data/TestInterfaces/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$PatientContrDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$PatientContrDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$ProductIDDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$ProductIDDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$ProductSaleLineDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest$ProductSaleLineDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/E-Receipt/farmacy/SaleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/HealthCardID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/PatientContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/PatientContr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ProductID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Dispensing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmacy/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NathionalHealthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NathionalHealthService.java" afterDir="false" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,33 +87,35 @@
     <session id="-1226477604">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="70" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="70" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2137" />
+          <entry key="java" value="3218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2137" />
+          <entry key="JAVA" value="3218" />
         </counts>
       </usages-collector>
     </session>
@@ -78,18 +126,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecification.java">
+        <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="561">
               <caret line="51" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="14" />
+=======
+            <state relative-caret-position="276">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#calculateAmount#0;class#Sale#0" />
+                <element signature="method#addTaxes#0;class#Sale#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
@@ -98,11 +154,23 @@
                 <element signature="imports" expanded="true" />
                 <element signature="class#ProductIDDouble#0;class#ProductSaleLineTest#0" />
                 <element signature="class#PatientContrDouble#0;class#ProductSaleLineTest#0" />
+=======
+        <entry file="file://$PROJECT_DIR$/Test/farmacy/SaleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ProductIDDouble#0;class#SaleTest#0" />
+                <element signature="class#PatientContrDouble#0;class#SaleTest#0" />
+                <element signature="class#ProductSaleLineDouble#0;class#SaleTest#0" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,12 +184,22 @@
                 <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -129,27 +207,52 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-69">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ProductIDDouble#0;class#ProductSpecificationTest#0" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
             </state>
           </provider>
         </entry>
@@ -157,6 +260,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
@@ -164,11 +268,16 @@
                 <element signature="e#823#824#0" expanded="true" />
                 <element signature="e#851#852#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="108">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -176,15 +285,29 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#ProductIDDouble#0;class#ProductSpecificationTest#0" />
@@ -196,10 +319,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+=======
+        <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1059">
+              <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ProductIDDouble#0;class#ProductSaleLineTest#0" />
+                <element signature="class#PatientContrDouble#0;class#ProductSaleLineTest#0" />
+              </folding>
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
             </state>
           </provider>
         </entry>
@@ -229,9 +364,9 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/Data/Interfaces/ProductIDInter.java" />
         <option value="$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java" />
-        <option value="$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Interfaces/ProductSaleLineInter.java" />
         <option value="$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Test/farmacy/SaleTest.java" />
         <option value="$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java" />
         <option value="$PROJECT_DIR$/src/Data/ProductID.java" />
@@ -254,14 +389,48 @@
         <option value="$PROJECT_DIR$/src/farmacy/Exceptions/DispensingNotAvailableException.java" />
         <option value="$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Dispensing.java" />
+=======
+        <option value="$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/Exceptions/SaleClosedExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java" />
+        <option value="$PROJECT_DIR$/src/services/NathionalHealthServiceProductSpec.java" />
+        <option value="$PROJECT_DIR$/src/Data/PatientContr.java" />
+        <option value="$PROJECT_DIR$/src/services/NathionalHealthService.java" />
+        <option value="$PROJECT_DIR$/src/services/HealthCardReader.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" />
+        <option value="$PROJECT_DIR$/src/Data/HealthCardID.java" />
+        <option value="$PROJECT_DIR$/src/services/HealthCardReaderImpl.java" />
+        <option value="$PROJECT_DIR$/src/services/NathionalHealthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" />
+        <option value="$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java" />
+        <option value="$PROJECT_DIR$/src/Data/ProductID.java" />
+        <option value="$PROJECT_DIR$/src/farmacy/Dispensing.java" />
+        <option value="$PROJECT_DIR$/Test/Data/PatientContrTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" />
+        <option value="$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/ProductIDTest.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" />
+        <option value="$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" />
+        <option value="$PROJECT_DIR$/src/farmacy/Sale.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/SaleTest.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-66" />
     <option name="y" value="78" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
+=======
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -272,7 +441,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,12 +479,15 @@
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="farmacy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,6 +509,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -356,7 +535,11 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578002995076" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578076057784" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Receipt" />
@@ -367,6 +550,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="farmacy.Exceptions" />
+      <recent name="farmacy" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="farmacy" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -385,60 +572,85 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.ProductSaleLineTest">
     <configuration name="All in E-Receipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Data in E-Receipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="E-Receipt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Data" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthCardIDTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="E-Receipt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Data" />
-      <option name="MAIN_CLASS_NAME" value="Data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="testHash" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+=======
+  <component name="RunManager" selected="JUnit.ProductSaleLineTest.setContr">
     <configuration name="ProductSaleLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="farmacy.Exceptions.*" />
+          <option name="PATTERN" value="farmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="farmacy" />
       <option name="MAIN_CLASS_NAME" value="farmacy.ProductSaleLineTest" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Data in E-Receipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ProductSaleLineTest.getPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <module name="E-Receipt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="Data" />
+      <option name="TEST_OBJECT" value="package" />
+=======
+      <option name="PACKAGE_NAME" value="farmacy" />
+      <option name="MAIN_CLASS_NAME" value="farmacy.ProductSaleLineTest" />
+      <option name="METHOD_NAME" value="getPrice" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="HealthCardIDTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ProductSaleLineTest.setContr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <module name="E-Receipt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="Data" />
+      <option name="MAIN_CLASS_NAME" value="Data.HealthCardIDTest" />
+      <option name="METHOD_NAME" value="testHash" />
+=======
+      <option name="PACKAGE_NAME" value="farmacy" />
+      <option name="MAIN_CLASS_NAME" value="farmacy.ProductSaleLineTest" />
+      <option name="METHOD_NAME" value="setContr" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="ProductSaleLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="ProductSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
@@ -447,12 +659,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="farmacy" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="farmacy.ProductSaleLineTest" />
+=======
       <option name="MAIN_CLASS_NAME" value="farmacy.ProductSpecificationTest" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="ProductSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="SaleClosedExceptionTest.getAmountClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+      <module name="E-Receipt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="farmacy.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="farmacy" />
+      <option name="MAIN_CLASS_NAME" value="farmacy.ProductSpecificationTest" />
+=======
+      <option name="PACKAGE_NAME" value="farmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="farmacy.Exceptions.SaleClosedExceptionTest" />
+      <option name="METHOD_NAME" value="getAmountClosed" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JUnit.All in E-Receipt" />
       <item itemvalue="JUnit.HealthCardIDTest.testHash" />
       <item itemvalue="JUnit.Data in E-Receipt" />
@@ -466,6 +708,21 @@
         <item itemvalue="JUnit.Data in E-Receipt" />
         <item itemvalue="JUnit.HealthCardIDTest.testHash" />
         <item itemvalue="JUnit.All in E-Receipt" />
+=======
+      <item itemvalue="JUnit.SaleClosedExceptionTest.getAmountClosed" />
+      <item itemvalue="JUnit.ProductSpecificationTest" />
+      <item itemvalue="JUnit.ProductSaleLineTest" />
+      <item itemvalue="JUnit.ProductSaleLineTest.getPrice" />
+      <item itemvalue="JUnit.ProductSaleLineTest.setContr" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductSaleLineTest.setContr" />
+        <item itemvalue="JUnit.ProductSaleLineTest.getPrice" />
+        <item itemvalue="JUnit.ProductSaleLineTest" />
+        <item itemvalue="JUnit.ProductSpecificationTest" />
+        <item itemvalue="JUnit.SaleClosedExceptionTest.getAmountClosed" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       </list>
     </recent_temporary>
   </component>
@@ -483,6 +740,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="HealthCardIDTest_testEquals - 2019.12.30 at 13h 24m 41s.xml">
       <configuration name="HealthCardIDTest.testEquals" configurationId="JUnit" />
     </history-entry>
@@ -512,6 +770,37 @@
     </history-entry>
     <history-entry file="ProductSaleLineTest - 2020.01.02 at 18h 11m 09s.xml">
       <configuration name="ProductSaleLineTest" configurationId="JUnit" />
+=======
+    <history-entry file="SaleClosedExceptionTest_allLineClosed - 2020.01.03 at 13h 01m 38s.xml">
+      <configuration name="SaleClosedExceptionTest.allLineClosed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaleClosedExceptionTest_allLineClosed - 2020.01.03 at 13h 15m 41s.xml">
+      <configuration name="SaleClosedExceptionTest.allLineClosed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaleClosedExceptionTest_getAmountClosed - 2020.01.03 at 13h 18m 56s.xml">
+      <configuration name="SaleClosedExceptionTest.getAmountClosed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaleClosedExceptionTest_getAmountClosed - 2020.01.03 at 13h 21m 40s.xml">
+      <configuration name="SaleClosedExceptionTest.getAmountClosed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSpecificationTest - 2020.01.03 at 18h 18m 00s.xml">
+      <configuration name="ProductSpecificationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSaleLineTest - 2020.01.03 at 18h 37m 58s.xml">
+      <configuration name="ProductSaleLineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSaleLineTest_getPrice - 2020.01.03 at 18h 39m 52s.xml">
+      <configuration name="ProductSaleLineTest.getPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSaleLineTest_getPrice - 2020.01.03 at 18h 40m 28s.xml">
+      <configuration name="ProductSaleLineTest.getPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSaleLineTest_setContr - 2020.01.03 at 18h 40m 32s.xml">
+      <configuration name="ProductSaleLineTest.setContr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductSaleLineTest_setContr - 2020.01.03 at 18h 40m 51s.xml">
+      <configuration name="ProductSaleLineTest.setContr" configurationId="JUnit" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
     </history-entry>
   </component>
   <component name="TodoView">
@@ -525,9 +814,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.21214575" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.16257995" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -535,6 +830,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.32562277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
@@ -545,6 +841,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.2153025" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.42348754" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2241993" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3167028" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.37960956" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.104982205" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22451194" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,34 +862,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32955465" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.16257995" />
-      <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31453362" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.38394794" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.104982205" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22559653" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32955465" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -620,6 +900,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -648,6 +929,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java">
+=======
+    <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/WrongCodeTest.java">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
@@ -680,33 +964,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/ProductIDInter.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="153">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+=======
+        <state relative-caret-position="81">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/Interfaces/ProductSaleLineInter.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="216">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/Exceptions/SaleClosedExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
+          <folding>
+            <element signature="class#ProductIDDouble#0;class#SaleClosedExceptionTest#0" />
+            <element signature="class#PatientContrDouble#0;class#SaleClosedExceptionTest#0" />
+            <element signature="method#allLineClosed#0;class#SaleClosedExceptionTest#0" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/services/NathionalHealthServiceProductSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="60" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -741,12 +1061,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/HealthCardReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/services/NationalHealthServices.java" />
     <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/ProductIDInter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -773,16 +1121,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/HealthCardIDInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/HealthCardReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/NathionalHealthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="13" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
           <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+=======
+        <state relative-caret-position="378">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#ProductIDDouble#0;class#ProductSpecificationTest#0" />
@@ -794,6 +1195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="561">
           <caret line="51" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="14" />
           <folding>
@@ -810,16 +1212,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/WrongCodeException.java">
+=======
+        <state relative-caret-position="54">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLineTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#ProductIDDouble#0;class#ProductSaleLineTest#0" />
@@ -828,6 +1252,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -836,10 +1261,19 @@
             <element signature="imports" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
             <element signature="e#851#852#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -851,6 +1285,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -859,16 +1327,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="68">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="276">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#calculateAmount#0;class#Sale#0" />
+            <element signature="method#addTaxes#0;class#Sale#0" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
@@ -879,6 +1357,37 @@
             <element signature="e#547#548#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
             <element signature="e#632#633#0" expanded="true" />
+=======
+        <state relative-caret-position="114">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ProductIDDouble#0;class#SaleTest#0" />
+            <element signature="class#PatientContrDouble#0;class#SaleTest#0" />
+            <element signature="class#ProductSaleLineDouble#0;class#SaleTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ProductIDDouble#0;class#ProductSaleLineTest#0" />
+            <element signature="class#PatientContrDouble#0;class#ProductSaleLineTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
           </folding>
         </state>
       </provider>

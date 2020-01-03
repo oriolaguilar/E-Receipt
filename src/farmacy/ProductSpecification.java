@@ -1,14 +1,20 @@
 package farmacy;
 
 import Data.Interfaces.ProductIDInter;
+<<<<<<< HEAD
 import Data.HealthCardID;
 import Data.PatientContr;
 import services.NationalHealthService;
+=======
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 
-import java.util.List;
 
+<<<<<<< HEAD
 
 public class ProductSpecification implements NationalHealthService {
+=======
+public class ProductSpecification {
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 
     private ProductIDInter productID;
 
@@ -42,24 +48,5 @@ public class ProductSpecification implements NationalHealthService {
         return price;
     }
 
-    @Override
-    public Dispensing getePrescription(HealthCardID hcID) {
-        return null;
-    }
-
-    @Override
-    public PatientContr getPatientCont(HealthCardID hcID) {
-        return null;
-    }
-
-    @Override
-    public ProductSpecification getProductSpecific(ProductIDInter productID) {
-        return new ProductSpecification(productID,getDescription(),getPrice());
-    }
-
-    @Override
-    public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {
-        return null;
-    }
 
 }

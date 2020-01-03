@@ -2,6 +2,10 @@ package Data;
 
 import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.ProductIDInter;
+<<<<<<< HEAD
+=======
+import Data.Exceptions.WrongCodeException;
+>>>>>>> ca5c9072749a8bcedca22812530ec5ab452da3d9
 
 final public class ProductID implements ProductIDInter {
 

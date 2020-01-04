@@ -48,20 +48,18 @@ public class Dispensing implements NathionalHealthService {
     }
 
     public void setCompleted(){
-        if (dispensingIsCompleted()){
-            isCompleted = true;
-        }
+        dispensingIsCompleted();
+        isCompleted = true;
     }
 
-    private boolean dispensingIsCompleted() {
+    private void dispensingIsCompleted() {
         Iterator<MedicineDispensingLine> it = prescription.iterator();
         while (it.hasNext()){
             MedicineDispensingLine medicineLine = it.next();
             if(!medicineLine.getAdquired()){
-                return false;
+                medicineLine.setAdquired(true);
             }
         }
-        return true;
     }
 
     public byte getnOrder(){

@@ -6,12 +6,12 @@ import Data.Exceptions.WrongCodeException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
+import Pharmacy.Exceptions.DispensingNotAvailableException;
 import Pharmacy.Exceptions.NotValideePrescriptionException;
+import Pharmacy.Exceptions.SaleClosedException;
 import jdk.nashorn.internal.ir.annotations.Ignore;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.*;
+import services.HealthCardReader;
 import services.NationalHealthService;
 
 import java.math.BigDecimal;
@@ -36,7 +36,7 @@ public class DispensingTerminalTest {
                 byte nOrder = 13;
                 List<MedicineDispensingLine> prescrition = new ArrayList<>();
                 prescrition.add(new MedicineDispensingLine(new ProductID("1234567890"), "Prendre cada 8 hores"));
-                Dispensing dispensing = new Dispensing(nOrder, new Date(), new Date(12341L), prescrition);
+                Dispensing dispensing = new Dispensing(nOrder, new Date(115, 1, 1), new Date(125, 1,1), prescrition);
                 return dispensing;
             }catch (ProductIDException ignore){}
 
@@ -81,30 +81,71 @@ public class DispensingTerminalTest {
             return null; //Mai arribara aqui ja que el hcID que se'ns passa es correcte
         }
 
-
-
     }
+    public static class HealthCardReaderImpl implements HealthCardReader{
+
+        @Override
+        public HealthCardID getHealthcardID() throws HealthCardException {
+            return new HealthCardID("ABCD1234567890");
+        }
+    }
+
     DispensingTerminal dt;
 
-    @Order(0)
-    @Test
-    public void first() throws ProductIDException, HealthCardException, ConnectException {
-        System.out.println("Pole");
-        assertTrue(true);
-    }
-    @Order(1)
-    @Test
-    public void second() throws ProductIDException, HealthCardException, ConnectException {
-        System.out.println("SubPole");
-        assertTrue(true);
+    @BeforeEach
+    private void setUp(){
+        dt = new DispensingTerminal();
+        dt.setHCReader(new HealthCardReaderImpl());
+        dt.setSNS(new SNS());
     }
 
-    @Order(2)
+    //@Order(0)
     @Test
-    public void third() throws ProductIDException, HealthCardException, ConnectException {
-        System.out.println("Fail");
-        assertTrue(true);
+    public void getePrescriptionTest() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException {
+        Dispensing dispensingExpected = createDispensing();
+
+        dt.getePrescription();
+
+        assertEquals(dispensingExpected, dt.getActualDispensing());
+    }
+
+    @Test
+    public void initNewSale() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException, DispensingNotAvailableException {
+        Dispensing dispensingExpected = createDispensing();
+
+        dt.getePrescription();
+        dt.initNewSale(5);
+
+        assertEquals(dispensingExpected, dt.getSale().getDispensing());
+    }
+
+    private Dispensing createDispensing() throws ProductIDException {
+        byte nOrder = 13;
+        List<MedicineDispensingLine> prescrition = new ArrayList<>();
+        prescrition.add(new MedicineDispensingLine(new ProductID("1234567890"), "Prendre cada 8 hores"));
+        Dispensing dispensingExpected = new Dispensing(nOrder, new Date(), new Date(12341L), prescrition);
+        return dispensingExpected;
     }
 
 
+    @Test
+    public void enterProductTest() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException, DispensingNotAvailableException, SaleClosedException {
+        dt.getePrescription();
+        dt.initNewSale(5);
+        dt.enterProduct(new ProductID("1234567890"));
+
+        assertEquals(new ProductID("1234567890"), dt.getSale().getPsl().getProductID());
+        assertTrue(dt.getActualDispensing().getIsAcquired(new ProductID("1234567890")));
+    }
+
+    @Test
+    public void finalizeSale() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+        dt.getePrescription();
+        dt.initNewSale(5);
+        dt.enterProduct(new ProductID("1234567890"));
+        dt.finalizeSale();
+
+        assertTrue(dt.getSale().isClosed());
+        assertTrue(dt.getActualDispensing().getIsCompleted());
+    }
 }

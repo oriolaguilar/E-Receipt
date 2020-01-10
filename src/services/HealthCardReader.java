@@ -1,7 +1,8 @@
 package services;
 
+import Data.Exceptions.HealthCardException;
 import Data.HealthCardID;
 
 public interface HealthCardReader {
-    HealthCardID getHealthcardID();
+    public HealthCardID getHealthcardID() throws HealthCardException;
 }

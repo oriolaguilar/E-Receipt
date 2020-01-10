@@ -21,6 +21,7 @@ public class ProductSpecification {
     }
     public ProductSpecification(ProductID productID){
         this.productID= productID;
+        this.price = new BigDecimal(5.73);
     }
 
     public void setDescription(String description) {

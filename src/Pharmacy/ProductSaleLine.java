@@ -17,6 +17,9 @@ public class ProductSaleLine extends Sale {
         this.contr=contr;
     }
 
+    public ProductID getProductID(){
+        return productID;
+    }
     public BigDecimal getPrice() {
         return price;
     }

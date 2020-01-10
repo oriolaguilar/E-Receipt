@@ -33,7 +33,7 @@ public class DispensingTest {
         prescription.add(medicinePrescription);
         prescription.add(medicinePrescription2);
 
-        dispensation = new Dispensing(nOrder, new Date(120, 10, 1), new Date(1578555847876L), prescription);
+        dispensation = new Dispensing(nOrder, new Date(110, 10, 1), new Date(1578555847876L), prescription);
     }
 
 

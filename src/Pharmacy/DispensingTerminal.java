@@ -1,6 +1,7 @@
 package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
+import Data.Exceptions.WrongCodeException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
@@ -30,8 +31,8 @@ public class DispensingTerminal {
     }
     public void initNewSale(int saleCode) throws DispensingNotAvailableException {
         sale = new Sale(saleCode);
-        actualDispensing.dispensingEnabled();
-        actualDispensing = sale.getDispensing();
+        if(actualDispensing.dispensingEnabled())
+            sale.setDispensing(actualDispensing);
     }
 
     public void enterProduct(ProductID pID) throws SaleClosedException, ConnectException {
@@ -46,6 +47,23 @@ public class DispensingTerminal {
         sale.setClosed();
         actualDispensing.setCompleted();
     }
+
+
+    public void setSNS(NationalHealthService SNS){
+        this.SNS = SNS;
+    }
+    public void setHCReader(HealthCardReader HCReader){
+        this.HCReader = HCReader;
+    }
+
+    public Dispensing getActualDispensing(){
+        return actualDispensing;
+    }
+    public Sale getSale(){
+        return sale;
+    }
+
+
     public void realizePayment(BigDecimal quantity) {}
     public void realizePayment() {}
     public void printNextDispensingSheet() {}

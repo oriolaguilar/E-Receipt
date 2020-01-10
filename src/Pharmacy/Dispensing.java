@@ -26,11 +26,22 @@ public class Dispensing {
     }
 
     public boolean dispensingEnabled() throws DispensingNotAvailableException {
-        if (initDate.after(new Date())){
+        if (initDate.before(new Date())){
             return true;
         }else{
             throw new DispensingNotAvailableException("Encara no es pot ha començat el període de dispensació");
         }
+    }
+    public boolean getIsAcquired(ProductID productID){
+        Iterator<MedicineDispensingLine> it = prescription.iterator();
+        while (it.hasNext()){
+            MedicineDispensingLine medicineLine = it.next();
+            if(medicineLine.getMedicine().equals(productID)){
+                return medicineLine.getAcquired();
+            }
+        }
+        return false;
+
     }
 
     public void setProductAsDispensed(ProductID productID){
@@ -58,6 +69,14 @@ public class Dispensing {
             }
         }
         return true;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Dispensing dispensing = (Dispensing) o;
+        return nOrder == dispensing.nOrder;
     }
 
     public byte getnOrder(){

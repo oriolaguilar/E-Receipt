@@ -49,9 +49,12 @@ public class DispensingTest {
     }
 
     @Test
-    public void setCompletedTest(){
+    public void setCompletedTest() throws ProductIDException {
         dispensation.setCompleted();
-        assertTrue(medicinePrescription.getAcquired());
-        assertTrue(medicinePrescription2.getAcquired());
+        assertFalse(dispensation.getIsCompleted());
+        dispensation.setProductAsDispensed(new ProductID("1234567890"));
+        dispensation.setProductAsDispensed(new ProductID("1010101010"));
+        dispensation.setCompleted();
+        assertTrue(dispensation.getIsCompleted());
     }
 }

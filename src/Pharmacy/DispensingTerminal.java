@@ -6,9 +6,10 @@ import Data.PatientContr;
 import Data.ProductID;
 import Pharmacy.Exceptions.DispensingNotAvailableException;
 import Data.Exceptions.HealthCardException;
+import Pharmacy.Exceptions.NotValideePrescriptionException;
 import Pharmacy.Exceptions.SaleClosedException;
 import services.HealthCardReader;
-import services.NathionalHealthService;
+import services.NationalHealthService;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
@@ -17,12 +18,13 @@ public class DispensingTerminal {
 
     private Dispensing actualDispensing;
     private Sale sale;
-    private NathionalHealthService SNS;
+    private NationalHealthService SNS;
     private HealthCardReader HCReader;
     private HealthCardID hcID;
 
+    public DispensingTerminal(){}
 
-    public void getePrescription() throws ConnectException, HealthCardException, ProductIDException {
+    public void getePrescription() throws ConnectException, HealthCardException, NotValideePrescriptionException {
         hcID = HCReader.getHealthcardID();
         actualDispensing = SNS.getePrescription(hcID);
     }

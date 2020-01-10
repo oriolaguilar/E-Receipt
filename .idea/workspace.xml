@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Exceptions/HealthCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/DispensingTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/farmacy/Interfaces/MedicalPrescrition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/farmacy/SaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/SaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/farmacy/Dispensing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/farmacy/Dispensing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/farmacy/MedicineDispensingLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/farmacy/MedicineDispensingLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/farmacy/ProductSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/farmacy/ProductSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/farmacy/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/farmacy/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/farmacy/DispensingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/DispensingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/farmacy/ProductSpecificationTest$ProductIDDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/ProductSpecificationTest$ProductIDDouble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/farmacy/ProductSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/ProductSpecificationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/farmacy/SaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/SaleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Dispensing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmacy/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmacy/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NathionalHealthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NathionalHealthService.java" afterDir="false" />
-    </list>
+    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="361">
+              <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/NathionalHealthService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -243,10 +219,10 @@
         <option value="$PROJECT_DIR$/src/farmacy/Sale.java" />
         <option value="$PROJECT_DIR$/Test/farmacy/SaleTest.java" />
         <option value="$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" />
-        <option value="$PROJECT_DIR$/src/farmacy/DispensingTerminal.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java" />
         <option value="$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java" />
         <option value="$PROJECT_DIR$/src/services/NathionalHealthService.java" />
+        <option value="$PROJECT_DIR$/src/farmacy/DispensingTerminal.java" />
       </list>
     </option>
   </component>
@@ -367,7 +343,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578656077459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578656838673" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
   </component>
   <component name="RecentsManager">
@@ -530,9 +506,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22267206" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +521,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.076512456" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.10676157" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.2153025" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.12989324" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12633452" />
@@ -875,16 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -941,6 +906,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

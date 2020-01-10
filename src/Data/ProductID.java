@@ -1,5 +1,6 @@
 package Data;
 
+import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.ProductIDInter;
 
@@ -8,9 +9,9 @@ final public class ProductID implements ProductIDInter {
 
     private final String UPC;
 
-    public ProductID(String code) throws WrongCodeException {
+    public ProductID(String code) throws ProductIDException {
         if (code == null || !correctCode(code))
-            throw new WrongCodeException("Wrong UPC code.");
+            throw new ProductIDException("Wrong UPC code.");
 
         this.UPC = code;
     }

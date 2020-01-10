@@ -1,5 +1,6 @@
 package Data;
 
+import Data.Exceptions.ProductIDException;
 import Data.TestInterfaces.DataTest;
 import Data.Exceptions.WrongCodeException;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +13,7 @@ public class ProductIDTest implements DataTest {
 
     @BeforeEach
     @Override
-    public void setUp() throws WrongCodeException {
+    public void setUp() throws WrongCodeException, ProductIDException {
         productID = new ProductID("1234567890");
     }
 
@@ -25,7 +26,7 @@ public class ProductIDTest implements DataTest {
 
     @Test
     @Override
-    public void testEquals() throws WrongCodeException {
+    public void testEquals() throws WrongCodeException, ProductIDException {
         ProductID copyProductId = new ProductID("1234567890");
         assertEquals(copyProductId, productID);
 

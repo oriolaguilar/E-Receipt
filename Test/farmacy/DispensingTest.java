@@ -1,5 +1,6 @@
 package farmacy;
 
+import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;
 import Data.ProductID;
 import farmacy.Exceptions.DispensingNotAvailableException;
@@ -22,7 +23,7 @@ public class DispensingTest {
     byte nOrder = 5;
 
     @BeforeEach
-    public void setUp() throws WrongCodeException {
+    public void setUp() throws WrongCodeException, ProductIDException {
         medicinePrescription  = new MedicineDispensingLine
                 (new ProductID("1010101010"), "Prendre cada 8 hores");
         medicinePrescription2 = new MedicineDispensingLine(
@@ -42,7 +43,7 @@ public class DispensingTest {
     }
 
     @Test
-    public void setProductAsDispensedTest() throws WrongCodeException {
+    public void setProductAsDispensedTest() throws WrongCodeException, ProductIDException {
         dispensation.setProductAsDispensed(new ProductID("1010101010"));
         assertTrue(medicinePrescription.getAcquired());
     }

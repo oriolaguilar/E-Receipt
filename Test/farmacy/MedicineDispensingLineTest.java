@@ -1,5 +1,6 @@
 package farmacy;
 
+import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.ProductIDInter;
 import Data.ProductID;
@@ -14,12 +15,12 @@ public class MedicineDispensingLineTest {
     MedicineDispensingLine medicinePresc;
 
     @BeforeEach
-    public void setUp() throws WrongCodeException {
+    public void setUp() throws WrongCodeException, ProductIDException {
         medicinePresc = new MedicineDispensingLine(new ProductID("1234567890"), "Prendre cada 8 hores.");
     }
 
     @Test
-    public void getProductID() throws WrongCodeException {
+    public void getProductID() throws WrongCodeException, ProductIDException {
         assertEquals(new ProductID("1234567890"), medicinePresc.getMedicine());
     }
 

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="" />
+    <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/ProductIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/ProductIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data/HealthCardID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data/HealthCardID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data/ProductID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data/ProductID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/farmacy/DispensingTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/farmacy/DispensingTerminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/farmacy/Exceptions/HealthCardException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/farmacy/ePrescription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/services/NathionalHealthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/services/NathionalHealthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Data/HealthCardIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Data/HealthCardIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Data/HealthCardIdSetUpExceptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Data/HealthCardIdSetUpExceptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Data/ProductIDSetUpExceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Data/ProductIDSetUpExceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Data/ProductIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Data/ProductIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Data/TestInterfaces/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Data/TestInterfaces/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/farmacy/DispensingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/DispensingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/farmacy/MedicineDispensingLineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/farmacy/MedicineDispensingLineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/HealthCardID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ProductID.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +37,14 @@
     <session id="-455362057">
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="135" />
+          <entry key="JAVA" value="149" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6022" />
+          <entry key="JAVA" value="6066" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -80,22 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java">
+        <entry file="file://$PROJECT_DIR$/Test/farmacy/DispensingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="60">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,40 +116,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/NathionalHealthService.java">
+        <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/HealthCardIDInter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -155,15 +152,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -175,8 +163,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/HealthCardException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -198,21 +225,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test/Data/PatientContrTest.java" />
-        <option value="$PROJECT_DIR$/src/Data/HealthCardID.java" />
         <option value="$PROJECT_DIR$/src/Data/PatientContr.java" />
-        <option value="$PROJECT_DIR$/src/Data/ProductID.java" />
         <option value="$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" />
         <option value="$PROJECT_DIR$/src/services/NationalHealthService.java" />
         <option value="$PROJECT_DIR$/src/services/NathionalHealthServices.java" />
-        <option value="$PROJECT_DIR$/Test/Data/ProductIDTest.java" />
         <option value="$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java" />
         <option value="$PROJECT_DIR$/src/farmacy/ePrescription.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Interfaces/MedicalPrescrition.java" />
-        <option value="$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" />
         <option value="$PROJECT_DIR$/Test/farmacy/Exceptions/HealthCardException.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Exceptions/HealthCardException.java" />
-        <option value="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" />
         <option value="$PROJECT_DIR$/src/farmacy/Dispensing.java" />
         <option value="$PROJECT_DIR$/src/farmacy/ProductSpecification.java" />
         <option value="$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" />
@@ -223,6 +245,14 @@
         <option value="$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java" />
         <option value="$PROJECT_DIR$/src/services/NathionalHealthService.java" />
         <option value="$PROJECT_DIR$/src/farmacy/DispensingTerminal.java" />
+        <option value="$PROJECT_DIR$/src/Data/HealthCardID.java" />
+        <option value="$PROJECT_DIR$/src/Data/ProductID.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIDTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/ProductIDTest.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" />
+        <option value="$PROJECT_DIR$/Test/farmacy/DispensingTest.java" />
+        <option value="$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java" />
+        <option value="$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java" />
       </list>
     </option>
   </component>
@@ -263,11 +293,6 @@
             <path>
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
@@ -326,13 +351,6 @@
             </path>
             <path>
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="farmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -343,7 +361,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578656838673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578659547763" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
   </component>
   <component name="RecentsManager">
@@ -363,19 +381,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SaleTest.addLine">
-    <configuration name="DispensingTest.dispensingEnabledTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Data in E-Receipt">
+    <configuration name="Data in E-Receipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="farmacy.*" />
+          <option name="PATTERN" value="Data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="farmacy" />
-      <option name="MAIN_CLASS_NAME" value="farmacy.DispensingTest" />
-      <option name="METHOD_NAME" value="dispensingEnabledTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Data" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCardIdSetUpExceptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="E-Receipt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data" />
+      <option name="MAIN_CLASS_NAME" value="Data.HealthCardIdSetUpExceptionsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,36 +456,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaleTest.getAmountSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="E-Receipt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="farmacy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="farmacy" />
-      <option name="MAIN_CLASS_NAME" value="farmacy.SaleTest" />
-      <option name="METHOD_NAME" value="getAmountSimple" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.DispensingTest.dispensingEnabledTest" />
       <item itemvalue="JUnit.SaleTest" />
-      <item itemvalue="JUnit.SaleTest.getAmountSimple" />
       <item itemvalue="JUnit.SaleTest.getAmountMultiple" />
       <item itemvalue="JUnit.SaleTest.addLine" />
+      <item itemvalue="JUnit.HealthCardIdSetUpExceptionsTest" />
+      <item itemvalue="JUnit.Data in E-Receipt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Data in E-Receipt" />
+        <item itemvalue="JUnit.HealthCardIdSetUpExceptionsTest" />
         <item itemvalue="JUnit.SaleTest.addLine" />
         <item itemvalue="JUnit.SaleTest" />
         <item itemvalue="JUnit.SaleTest.getAmountMultiple" />
-        <item itemvalue="JUnit.SaleTest.getAmountSimple" />
-        <item itemvalue="JUnit.DispensingTest.dispensingEnabledTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,15 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DispensingTest_dispensingEnabledTest - 2020.01.04 at 17h 55m 57s.xml">
-      <configuration name="DispensingTest.dispensingEnabledTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MedicineDispensingLineTest_getProductID - 2020.01.06 at 21h 31m 12s.xml">
-      <configuration name="MedicineDispensingLineTest.getProductID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MedicineDispensingLineTest_acquiredTest - 2020.01.06 at 21h 37m 15s.xml">
-      <configuration name="MedicineDispensingLineTest.acquiredTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DispensingTest_dispensingEnabledTest - 2020.01.10 at 11h 06m 16s.xml">
       <configuration name="DispensingTest.dispensingEnabledTest" configurationId="JUnit" />
     </history-entry>
@@ -503,11 +508,20 @@
     <history-entry file="SaleTest_addLine - 2020.01.10 at 12h 05m 36s.xml">
       <configuration name="SaleTest.addLine" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Data_in_E-Receipt - 2020.01.10 at 13h 18m 11s.xml">
+      <configuration name="Data in E-Receipt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Data_in_E-Receipt - 2020.01.10 at 13h 20m 06s.xml">
+      <configuration name="Data in E-Receipt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Data_in_E-Receipt - 2020.01.10 at 13h 25m 35s.xml">
+      <configuration name="Data in E-Receipt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22267206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,15 +530,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.16014235" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.16370107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.10676157" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.1227758" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.2153025" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.12989324" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.12633452" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.43594307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -582,37 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/NationalHealthServices.java" />
     <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/ProductIDInter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,34 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -736,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/HealthCardReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -781,16 +726,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2095#2096#0" expanded="true" />
             <element signature="e#2121#2122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/DispensingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="80" lean-forward="true" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -864,41 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/HealthCardException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,8 +818,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="292">
           <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/PatientContrSetUpExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/DispensingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/ProductIDException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Exceptions/HealthCardException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

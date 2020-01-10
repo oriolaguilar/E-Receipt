@@ -1,5 +1,6 @@
 package Data;
 
+import Data.Exceptions.HealthCardException;
 import Data.Exceptions.WrongCodeException;
 import Data.Interfaces.HealthCardIDInter;
 import Data.Exceptions.WrongCodeException;
@@ -9,9 +10,9 @@ final public class HealthCardID implements HealthCardIDInter{
 
     private final String personalID;
 
-    public HealthCardID(String code) throws WrongCodeException {
+    public HealthCardID(String code) throws HealthCardException {
         if (code == null || !correctCode(code))
-            throw new WrongCodeException("Wrong code, check the restrictions!");
+            throw new HealthCardException("Wrong code, check the restrictions!");
 
         this. personalID = code;
     }

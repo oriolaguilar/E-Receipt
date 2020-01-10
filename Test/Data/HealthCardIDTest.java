@@ -1,5 +1,6 @@
 package Data;
 
+import Data.Exceptions.HealthCardException;
 import Data.TestInterfaces.DataTest;
 import Data.HealthCardID;
 import Data.Exceptions.WrongCodeException;
@@ -13,7 +14,7 @@ public class HealthCardIDTest implements DataTest {
 
     @BeforeEach
     @Override
-    public void setUp() throws WrongCodeException {
+    public void setUp() throws HealthCardException {
         healthcard = new HealthCardID("ABCD1234567890");
     }
 
@@ -26,7 +27,7 @@ public class HealthCardIDTest implements DataTest {
 
     @Test
     @Override
-    public void testEquals() throws WrongCodeException {
+    public void testEquals() throws HealthCardException {
         HealthCardID healthcardCopy = new HealthCardID("ABCD1234567890");
         assertEquals(healthcardCopy, healthcard);
 

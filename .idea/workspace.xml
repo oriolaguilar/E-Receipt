@@ -4,22 +4,6 @@
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pharmacy/DispensingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Pharmacy/DispensingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pharmacy/Dispensing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pharmacy/Dispensing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pharmacy/DispensingTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pharmacy/DispensingTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pharmacy/ProductSaleLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pharmacy/ProductSaleLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/services/HealthCardReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/services/HealthCardReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/services/HealthCardReaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/services/NationalHealthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/services/NationalHealthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SNS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SNS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pharmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/Dispensing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pharmacy/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/ProductSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthCardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthCardReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthCardReaderImpl.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +23,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8733" />
+          <entry key="JAVA" value="8738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -101,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="124" column="58" selection-start-line="124" selection-start-column="58" selection-end-line="124" selection-end-column="58" />
+            <state relative-caret-position="238">
+              <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -110,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="306">
               <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -337,7 +321,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578698047396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578698906221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
   </component>
   <component name="RecentsManager">
@@ -469,12 +453,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DispensingTest_dispensingEnabledTest - 2020.01.10 at 23h 24m 19s.xml">
-      <configuration name="DispensingTest.dispensingEnabledTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DispensingTerminalTest_initNewSale - 2020.01.10 at 23h 24m 43s.xml">
-      <configuration name="DispensingTerminalTest.initNewSale" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 32m 11s.xml">
       <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
     </history-entry>
@@ -499,6 +477,12 @@
     <history-entry file="DispensingTerminalTest - 2020.01.10 at 23h 52m 21s.xml">
       <configuration name="DispensingTerminalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DispensingTerminalTest_getePrescriptionTest - 2020.01.11 at 00h 14m 13s.xml">
+      <configuration name="DispensingTerminalTest.getePrescriptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DispensingTerminalTest - 2020.01.11 at 00h 14m 22s.xml">
+      <configuration name="DispensingTerminalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -513,14 +497,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.11921708" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.41459075" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.16725978" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.2153025" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.042704627" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16548042" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.14234875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1013,7 +997,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="306">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1029,8 +1013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="124" column="58" selection-start-line="124" selection-start-column="58" selection-end-line="124" selection-end-column="58" />
+        <state relative-caret-position="238">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
         </state>
       </provider>
     </entry>

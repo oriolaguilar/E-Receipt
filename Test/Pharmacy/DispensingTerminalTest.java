@@ -99,7 +99,7 @@ public class DispensingTerminalTest {
         dt.setSNS(new SNS());
     }
 
-    //@Order(0)
+
     @Test
     public void getePrescriptionTest() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException {
         Dispensing dispensingExpected = createDispensing();

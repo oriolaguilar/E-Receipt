@@ -1,7 +1,6 @@
 package farmacy;
 
 import Data.Exceptions.WrongCodeException;
-import Data.Interfaces.ProductIDInter;
 import Data.ProductID;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,8 +1,5 @@
 package farmacy;
 
-import Data.Interfaces.PatientContrInter;
-import Data.Interfaces.ProductIDInter;
-import Data.ProductID;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

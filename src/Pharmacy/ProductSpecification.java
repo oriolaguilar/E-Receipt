@@ -1,25 +1,25 @@
 package farmacy;
 
-import Data.Interfaces.ProductIDInter;
+import Data.ProductID;
 
 import java.math.BigDecimal;
 
 
 public class ProductSpecification {
 
-    private ProductIDInter productID;
+    private ProductID productID;
 
     private String description;
 
     private BigDecimal price;
 
 
-    public ProductSpecification(ProductIDInter productID, String description, BigDecimal price){
+    public ProductSpecification(ProductID productID, String description, BigDecimal price){
         this.productID = productID;
         this.description = description;
         this.price = price;
     }
-    public ProductSpecification(ProductIDInter productID){
+    public ProductSpecification(ProductID productID){
         this.productID= productID;
     }
 

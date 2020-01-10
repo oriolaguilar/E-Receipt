@@ -69,14 +69,15 @@ class SaleTest {
         sale = new Sale(123);
     }
 
-    /*@Test
+/*
+    @Test
     void addLine() throws SaleClosedException {
         BigDecimal price = new BigDecimal(50);
-        sale.addLine(productID,price,contr);
-        ProductSaleLineInter psl = new P
+        sale.addLine(productID, price, contr);
+        ProductSaleLineInter psl = sale.getPsl();
 
-        assertEquals(psl.getPrice(),price);
-        assertEquals(psl.getContr(),contr);
+        assertEquals(price, psl.getPrice());
+        assertEquals(contr, psl.getContr());
     }
 */
     @Test
@@ -84,7 +85,7 @@ class SaleTest {
         BigDecimal price = new BigDecimal(50);
         sale.addLine(productID,price,contr);
 
-        assertEquals(sale.getAmount(),price.multiply(IVA));
+        assertEquals(price.multiply(IVA).multiply(contr.getContribution()), sale.getAmount());
     }
 
     @Test
@@ -99,7 +100,7 @@ class SaleTest {
         sale.addLine(productID,price1,contr);
         sale.addLine(productID,price2,contr);
 
-        assertEquals(sale.getAmount(),totalprice.multiply(IVA));
+        assertEquals(totalprice.multiply(IVA).multiply(contr.getContribution()), sale.getAmount());
     }
 
     @Test

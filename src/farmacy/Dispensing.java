@@ -41,25 +41,26 @@ public class Dispensing implements NathionalHealthService {
         while (it.hasNext()){
             MedicineDispensingLine medicineLine = it.next();
             if(medicineLine.getMedicine().equals(productID)){
-                medicineLine.setAdquired(true);
+                medicineLine.setAcquired(true);
                 break;
             }
         }
     }
 
     public void setCompleted(){
-        dispensingIsCompleted();
-        isCompleted = true;
+        if (dispensingIsCompleted())
+            isCompleted = true;
     }
 
-    private void dispensingIsCompleted() {
+    private boolean dispensingIsCompleted() {
         Iterator<MedicineDispensingLine> it = prescription.iterator();
         while (it.hasNext()){
             MedicineDispensingLine medicineLine = it.next();
-            if(!medicineLine.getAdquired()){
-                medicineLine.setAdquired(true);
+            if(!medicineLine.getAcquired()){
+                return false;
             }
         }
+        return true;
     }
 
     public byte getnOrder(){

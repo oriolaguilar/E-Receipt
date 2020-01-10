@@ -9,6 +9,7 @@ import java.util.List;
 import Data.Interfaces.ProductIDInter;
 import Data.Interfaces.PatientContrInter;
 import farmacy.Exceptions.SaleClosedException;
+import farmacy.Interfaces.ProductSaleLineInter;
 
 
 public class Sale {
@@ -26,6 +27,8 @@ public class Sale {
 
     private ProductSaleLine psl;
 
+    private Dispensing dispensing; //SET DISPENSINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGgg
+
     public Sale(int saleCode){
         this.saleCode = saleCode;
         this.date = new Date();
@@ -37,13 +40,14 @@ public class Sale {
         }
         psl = new ProductSaleLine(getSaleCode(),productID,contr);
         psl.setPrice(price);
-        prices.add(price);
+        prices.add(price.multiply(contr.getContribution()));
     }
     private void calculateAmount(){
         for (BigDecimal i: prices){
             amount = amount.add(i);
         }
     }
+
     private void addTaxes() throws SaleClosedException{
         if (isClosed()){
             throw new SaleClosedException("Sale is closed");
@@ -59,7 +63,12 @@ public class Sale {
         addTaxes();
         return amount;
     }
-
+    public void setDispensing(Dispensing dispensing){
+        this.dispensing = dispensing;
+    }
+    public Dispensing getDispensing(){
+        return dispensing;
+    }
     public void setClosed() {
         isClosed = true;
     }
@@ -67,6 +76,8 @@ public class Sale {
         return isClosed;
     }
 
-
     public int getSaleCode(){return this.saleCode;}
+    public ProductSaleLine getPsl(){
+        return this.psl;
+    }
 }

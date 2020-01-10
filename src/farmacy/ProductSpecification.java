@@ -2,6 +2,8 @@ package farmacy;
 
 import Data.Interfaces.ProductIDInter;
 
+import java.math.BigDecimal;
+
 
 public class ProductSpecification {
 
@@ -9,13 +11,13 @@ public class ProductSpecification {
 
     private String description;
 
-    private int price;
+    private BigDecimal price;
 
 
-    public ProductSpecification(ProductIDInter productID, String description, int price){
-        this.productID= productID;
+    public ProductSpecification(ProductIDInter productID, String description, BigDecimal price){
+        this.productID = productID;
         this.description = description;
-        this.price=price;
+        this.price = price;
     }
     public ProductSpecification(ProductIDInter productID){
         this.productID= productID;
@@ -25,7 +27,7 @@ public class ProductSpecification {
         this.description = description;
     }
 
-    public void setPrice(int price){
+    public void setPrice(BigDecimal price){
         this.price = price;
     }
 
@@ -33,7 +35,7 @@ public class ProductSpecification {
         return description;
     }
 
-    public int getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 

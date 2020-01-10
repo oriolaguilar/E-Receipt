@@ -5,6 +5,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
+import java.math.BigDecimal;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductSpecificationTest {
@@ -33,7 +35,7 @@ class ProductSpecificationTest {
         productIDInter = new ProductIDDouble("ABC");
         productIDInter2 = new ProductIDDouble("123");
         
-        ps = new ProductSpecification(productIDInter,"Medicament",23);
+        ps = new ProductSpecification(productIDInter,"Medicament",new BigDecimal(23));
         ps2 = new ProductSpecification(productIDInter2);
 
     }
@@ -45,7 +47,7 @@ class ProductSpecificationTest {
 
     @Test
     void setPrice() {
-        ps2.setPrice(23);
+        ps2.setPrice(new BigDecimal(23));
         assertEquals(ps2.getPrice(),ps.getPrice());
     }
 

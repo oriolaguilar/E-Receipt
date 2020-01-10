@@ -32,7 +32,7 @@ public class DispensingTest {
         prescription.add(medicinePrescription);
         prescription.add(medicinePrescription2);
 
-        dispensation = new Dispensing(nOrder, new Date(), new Date(1578555847876L), prescription);
+        dispensation = new Dispensing(nOrder, new Date(120, 10, 1), new Date(1578555847876L), prescription);
     }
 
 
@@ -44,13 +44,13 @@ public class DispensingTest {
     @Test
     public void setProductAsDispensedTest() throws WrongCodeException {
         dispensation.setProductAsDispensed(new ProductID("1010101010"));
-        assertTrue(medicinePrescription.getAdquired());
+        assertTrue(medicinePrescription.getAcquired());
     }
 
     @Test
     public void setCompletedTest(){
         dispensation.setCompleted();
-        assertTrue(medicinePrescription.getAdquired());
-        assertTrue(medicinePrescription2.getAdquired());
+        assertTrue(medicinePrescription.getAcquired());
+        assertTrue(medicinePrescription2.getAcquired());
     }
 }

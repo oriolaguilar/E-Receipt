@@ -1,4 +1,4 @@
-package farmacy;
+package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;

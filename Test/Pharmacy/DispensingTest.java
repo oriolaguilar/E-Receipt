@@ -1,9 +1,9 @@
-package farmacy;
+package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;
 import Data.ProductID;
-import farmacy.Exceptions.DispensingNotAvailableException;
+import Pharmacy.Exceptions.DispensingNotAvailableException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

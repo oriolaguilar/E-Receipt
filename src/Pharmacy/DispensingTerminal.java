@@ -1,12 +1,12 @@
-package farmacy;
+package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
-import farmacy.Exceptions.DispensingNotAvailableException;
+import Pharmacy.Exceptions.DispensingNotAvailableException;
 import Data.Exceptions.HealthCardException;
-import farmacy.Exceptions.SaleClosedException;
+import Pharmacy.Exceptions.SaleClosedException;
 import services.HealthCardReader;
 import services.NathionalHealthService;
 

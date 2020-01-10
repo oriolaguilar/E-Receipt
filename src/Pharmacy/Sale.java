@@ -1,4 +1,4 @@
-package farmacy;
+package Pharmacy;
 
 
 import java.math.BigDecimal;
@@ -7,8 +7,7 @@ import java.util.Date;
 import java.util.List;
 import Data.PatientContr;
 import Data.ProductID;
-import farmacy.Exceptions.SaleClosedException;
-import farmacy.Interfaces.ProductSaleLineInter;
+import Pharmacy.Exceptions.SaleClosedException;
 
 
 public class Sale {

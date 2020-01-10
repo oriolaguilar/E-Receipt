@@ -1,4 +1,4 @@
-package farmacy.Exceptions;
+package Pharmacy.Exceptions;
 
 public class DispensingNotAvailableException extends Exception {
 

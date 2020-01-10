@@ -1,5 +1,9 @@
-package farmacy;
+package Pharmacy;
 
+import Data.Exceptions.ProductIDException;
+import Data.Exceptions.WrongCodeException;
+import Data.PatientContr;
+import Data.ProductID;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,42 +13,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductSaleLineTest{
 
-    private ProductIDInter productIDInter;
-    private PatientContrInter contr;
+    private ProductID productID;
+    private PatientContr contr;
     private BigDecimal price;
     private ProductSaleLine psl;
     private Sale sale;
 
-    private static class ProductIDDouble implements ProductIDInter{
-        private final String UPC;
-
-        public ProductIDDouble(String UPC){
-            this.UPC=UPC;
-        }
-
-        public String getUPC(){
-            return this.UPC;
-        }
-    }
-    private static class PatientContrDouble implements PatientContrInter{
-        private BigDecimal contribution;
-        public PatientContrDouble (BigDecimal contr){
-            this.contribution=contr;
-        }
-        @Override
-        public BigDecimal getContribution(){
-            return contribution;
-        }
-
-    }
 
     @BeforeEach
-    void setup(){
+    void setup() throws WrongCodeException, ProductIDException {
         sale = new Sale (100);
-        productIDInter = new ProductIDDouble("ABC");
-        contr = new PatientContrDouble(new BigDecimal(80));
+        productID = new ProductID("1236563595");
+        contr = new PatientContr(new BigDecimal(0.7));
         price = (new BigDecimal(30));
-        psl= new ProductSaleLine(sale.getSaleCode(),productIDInter,contr);
+        psl= new ProductSaleLine(sale.getSaleCode(),productID,contr);
     }
 
     @Test
@@ -68,10 +50,10 @@ class ProductSaleLineTest{
     }
 
     @Test
-    void setContr() {
-        PatientContrInter contr2 = new PatientContrDouble(new BigDecimal(100));
+    void setContr() throws WrongCodeException {
+        PatientContr contr2 = new PatientContr(new BigDecimal(0.6));
         psl.setContr(contr2);
-        assertEquals(psl.getContr().getContribution(),new BigDecimal(100));
+        assertEquals(psl.getContr().getContribution(),new BigDecimal(0.6));
         assertNotEquals(psl.getContr(), new BigDecimal(80));
     }
 }

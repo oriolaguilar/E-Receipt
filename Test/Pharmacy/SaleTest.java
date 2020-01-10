@@ -1,9 +1,10 @@
-package farmacy;
+package Pharmacy;
 
+import Data.Exceptions.ProductIDException;
 import Data.Exceptions.WrongCodeException;
 import Data.PatientContr;
 import Data.ProductID;
-import farmacy.Exceptions.SaleClosedException;
+import Pharmacy.Exceptions.SaleClosedException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -19,9 +20,9 @@ class SaleTest {
     private static BigDecimal IVA = new BigDecimal(1.21);
 
     @BeforeEach
-    void setup() throws WrongCodeException {
-        contr = new PatientContr(new BigDecimal(100));
-        productID = new ProductID("ABC");
+    void setup() throws WrongCodeException, ProductIDException {
+        contr = new PatientContr(new BigDecimal(0.5));
+        productID = new ProductID("2141582567");
         sale = new Sale(123);
     }
 

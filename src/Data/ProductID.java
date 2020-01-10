@@ -1,11 +1,9 @@
 package Data;
 
 import Data.Exceptions.ProductIDException;
-import Data.Exceptions.WrongCodeException;
-import Data.Interfaces.ProductIDInter;
 
 
-final public class ProductID implements ProductIDInter {
+final public class ProductID{
 
     private final String UPC;
 
@@ -27,7 +25,6 @@ final public class ProductID implements ProductIDInter {
         return length && allNumbers;
     }
 
-    @Override
     public String getUPC() {
         return UPC;
     }

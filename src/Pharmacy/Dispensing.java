@@ -1,9 +1,7 @@
-package farmacy;
+package Pharmacy;
 
 import Data.ProductID;
-import Data.HealthCardID;
-import Data.PatientContr;
-import farmacy.Exceptions.DispensingNotAvailableException;
+import Pharmacy.Exceptions.DispensingNotAvailableException;
 
 
 import java.util.*;

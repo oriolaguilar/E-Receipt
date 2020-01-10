@@ -1,4 +1,4 @@
-package farmacy;
+package Pharmacy;
 
 import Data.PatientContr;
 import Data.ProductID;

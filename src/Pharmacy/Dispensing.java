@@ -1,16 +1,15 @@
 package farmacy;
 
-import Data.Interfaces.ProductIDInter;
 import Data.ProductID;
 import Data.HealthCardID;
 import Data.PatientContr;
 import farmacy.Exceptions.DispensingNotAvailableException;
-import services.NathionalHealthService;
+
 
 import java.util.*;
 
 
-public class Dispensing implements NathionalHealthService {
+public class Dispensing {
 
     private byte nOrder;
 
@@ -91,22 +90,5 @@ public class Dispensing implements NathionalHealthService {
         prescription = newPrescription;
     }
 
-    @Override
-    public Dispensing getePrescription(HealthCardID hcID) {
-        return null;
-    }
 
-    @Override
-    public PatientContr getPatientContr(HealthCardID hcID) {
-        return null;
-    }
-    @Override
-    public ProductSpecification getProductSpecific(ProductIDInter pID) {
-        return null;
-    }
-
-    @Override
-    public List<Dispensing> updateePrescription(HealthCardID hcID, Dispensing disp) {
-        return null;
-    }
 }

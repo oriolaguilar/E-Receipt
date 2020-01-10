@@ -1,10 +1,9 @@
 package farmacy;
 
-import Data.Interfaces.PatientContrInter;
-import Data.Interfaces.ProductIDInter;
+import Data.Exceptions.WrongCodeException;
+import Data.PatientContr;
+import Data.ProductID;
 import farmacy.Exceptions.SaleClosedException;
-import farmacy.Interfaces.ProductSaleLineInter;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -15,71 +14,26 @@ import static org.junit.jupiter.api.Assertions.*;
 class SaleTest {
 
     private Sale sale;
-    private PatientContrInter contr;
-    private ProductIDInter productID;
+    private PatientContr contr;
+    private ProductID productID;
     private static BigDecimal IVA = new BigDecimal(1.21);
 
-    private static class ProductIDDouble implements ProductIDInter {
-        private final String UPC;
-
-        public ProductIDDouble(String UPC){
-            this.UPC=UPC;
-        }
-
-        public String getUPC(){
-            return this.UPC;
-        }
-    }
-    private static class PatientContrDouble implements PatientContrInter {
-        private BigDecimal contribution;
-        public PatientContrDouble (BigDecimal contr){
-            this.contribution=contr;
-        }
-        @Override
-        public BigDecimal getContribution(){
-            return contribution;
-        }
-
-    }
-    private static class ProductSaleLineDouble implements ProductSaleLineInter{
-        private ProductIDInter productID;
-
-        private BigDecimal price;
-
-        private PatientContrInter contr;
-
-        public ProductSaleLineDouble(ProductIDInter productID, BigDecimal price, PatientContrInter contr){
-            this.productID = productID;
-            this.price= price;
-            this.contr= contr;
-        }
-        public BigDecimal getPrice(){
-            return price;
-        }
-        public PatientContrInter getContr(){
-            return contr;
-        }
-    }
-
-
     @BeforeEach
-    void setup(){
-        contr = new PatientContrDouble(new BigDecimal(100));
-        productID = new ProductIDDouble("ABC");
+    void setup() throws WrongCodeException {
+        contr = new PatientContr(new BigDecimal(100));
+        productID = new ProductID("ABC");
         sale = new Sale(123);
     }
 
-/*
     @Test
     void addLine() throws SaleClosedException {
         BigDecimal price = new BigDecimal(50);
         sale.addLine(productID, price, contr);
-        ProductSaleLineInter psl = sale.getPsl();
+        ProductSaleLine psl = sale.getPsl();
 
         assertEquals(price, psl.getPrice());
         assertEquals(contr, psl.getContr());
     }
-*/
     @Test
     void getAmountSimple() throws SaleClosedException {
         BigDecimal price = new BigDecimal(50);

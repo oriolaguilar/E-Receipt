@@ -5,9 +5,8 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import Data.Interfaces.ProductIDInter;
-import Data.Interfaces.PatientContrInter;
+import Data.PatientContr;
+import Data.ProductID;
 import farmacy.Exceptions.SaleClosedException;
 import farmacy.Interfaces.ProductSaleLineInter;
 
@@ -34,7 +33,7 @@ public class Sale {
         this.date = new Date();
     }
 
-    public void addLine(ProductIDInter productID, BigDecimal price, PatientContrInter contr) throws SaleClosedException {
+    public void addLine(ProductID productID, BigDecimal price, PatientContr contr) throws SaleClosedException {
         if (isClosed()){
             throw new SaleClosedException("Sale is closed");
         }

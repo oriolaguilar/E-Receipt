@@ -1,7 +1,5 @@
 package farmacy.Exceptions;
 
-import Data.Interfaces.PatientContrInter;
-import Data.Interfaces.ProductIDInter;
 import farmacy.Sale;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

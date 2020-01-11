@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -30,7 +31,9 @@ class SaleTest {
     void addLine() throws SaleClosedException {
         BigDecimal price = new BigDecimal(50);
         sale.addLine(productID, price, contr);
-        ProductSaleLine psl = sale.getPsl();
+
+        List<ProductSaleLine> listPsl = sale.getPsl();
+        ProductSaleLine psl = listPsl.get(listPsl.size()-1);
 
         assertEquals(price, psl.getPrice());
         assertEquals(contr, psl.getContr());

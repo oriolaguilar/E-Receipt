@@ -5,15 +5,16 @@ import Data.Exceptions.WrongCodeException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
-import Pharmacy.Exceptions.DispensingNotAvailableException;
+import Pharmacy.Exceptions.*;
 import Data.Exceptions.HealthCardException;
-import Pharmacy.Exceptions.NotValideePrescriptionException;
-import Pharmacy.Exceptions.SaleClosedException;
 import services.HealthCardReader;
 import services.NationalHealthService;
+import services.SalesHistory;
+import services.Warehouse;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
+import java.util.Date;
 
 public class DispensingTerminal {
 
@@ -22,6 +23,8 @@ public class DispensingTerminal {
     private NationalHealthService SNS;
     private HealthCardReader HCReader;
     private HealthCardID hcID;
+    private BigDecimal amount;
+    private CashPayment cashPayment;
 
     public DispensingTerminal(){}
 
@@ -43,11 +46,32 @@ public class DispensingTerminal {
     }
 
     public void finalizeSale() throws SaleClosedException {
-        sale.getAmount();
+        amount = sale.getAmount();
         sale.setClosed();
         actualDispensing.setCompleted();
     }
 
+    public void realizePayment(BigDecimal quantity) throws InsuficientExistence, QuantityMinorThanImport, SaleNotClosedException, ConnectException {
+        if (!sale.isClosed())
+            throw new SaleNotClosedException("La venta encara no ha estat tancada!");
+
+        cashPayment.setSale(sale);
+        cashPayment.realizePayment(amount, quantity);
+        try {
+            SNS.updateePrescription(hcID, SNS.getePrescription(hcID));
+        } catch (HealthCardException | NotValideePrescriptionException ignored){}
+    }
+
+    public void setWarehouse(Warehouse warehouse){
+        cashPayment.setWarehouse(warehouse);
+    }
+    public void setSalesHistory(SalesHistory salesHistory){
+        cashPayment.setSalesHistory(salesHistory);
+    }
+    public void initCashPayment() {
+        cashPayment = new CashPayment();
+
+    }
 
     public void setSNS(NationalHealthService SNS){
         this.SNS = SNS;
@@ -62,9 +86,13 @@ public class DispensingTerminal {
     public Sale getSale(){
         return sale;
     }
+    public BigDecimal getAmount(){
+        return amount;
+    }
+    public CashPayment getCashPayment() {
+        return cashPayment;
+    }
 
-
-    public void realizePayment(BigDecimal quantity) {}
     public void realizePayment() {}
     public void printNextDispensingSheet() {}
 }

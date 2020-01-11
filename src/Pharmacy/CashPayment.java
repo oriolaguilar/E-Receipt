@@ -11,21 +11,35 @@ import java.util.List;
 public class CashPayment {
 
     private Warehouse warehouse;
-
     private SalesHistory salesHistory;
-
-    private List<ProductSaleLine> listOfProducts;
-
     private Sale sale;
 
-    public CashPayment(){
-    }
+    private BigDecimal pImport;
+    private BigDecimal pChange;
+
+    public CashPayment(){}
 
     void realizePayment(BigDecimal amount, BigDecimal quantity) throws QuantityMinorThanImport, InsuficientExistence {
-        if(amount.compareTo(quantity) < 0){
+        if(amount.compareTo(quantity) > 0){
             throw new QuantityMinorThanImport("Quantity is lower than price");
         }
-        warehouse.updateStock(listOfProducts);
+        pImport = quantity;
+        pChange = quantity.subtract(amount);
+        warehouse.updateStock(sale.getPsl());
         salesHistory.registerSale(sale);
+    }
+
+    public void setWarehouse(Warehouse warehouse){
+        this.warehouse = warehouse;
+    }
+    public void setSalesHistory(SalesHistory salesHistory){
+        this.salesHistory = salesHistory;
+    }
+    public void setSale(Sale sale){
+        this.sale = sale;
+    }
+
+    public BigDecimal getpChange() {
+        return pChange;
     }
 }

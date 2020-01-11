@@ -23,21 +23,22 @@ public class Sale {
 
     private List<BigDecimal> prices = new ArrayList<>();
 
-    private ProductSaleLine psl;
+    private List<ProductSaleLine> psl;
 
-    private Dispensing dispensing; //SET DISPENSINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGgg
+    private Dispensing dispensing;
 
     public Sale(int saleCode){
         this.saleCode = saleCode;
         this.date = new Date();
+        psl = new ArrayList<>();
     }
 
     public void addLine(ProductID productID, BigDecimal price, PatientContr contr) throws SaleClosedException {
         if (isClosed()){
             throw new SaleClosedException("Sale is closed");
         }
-        psl = new ProductSaleLine(getSaleCode(),productID,contr);
-        psl.setPrice(price);
+        psl.add(new ProductSaleLine(getSaleCode(),productID,contr));
+        psl.get(psl.size()-1).setPrice(price);
         prices.add(price.multiply(contr.getContribution()));
     }
     private void calculateAmount(){
@@ -75,7 +76,7 @@ public class Sale {
     }
 
     public int getSaleCode(){return this.saleCode;}
-    public ProductSaleLine getPsl(){
+    public List<ProductSaleLine> getPsl(){
         return this.psl;
     }
 }

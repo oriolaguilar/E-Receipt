@@ -6,13 +6,13 @@ import Data.Exceptions.WrongCodeException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
-import Pharmacy.Exceptions.DispensingNotAvailableException;
-import Pharmacy.Exceptions.NotValideePrescriptionException;
-import Pharmacy.Exceptions.SaleClosedException;
+import Pharmacy.Exceptions.*;
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.*;
 import services.HealthCardReader;
 import services.NationalHealthService;
+import services.SalesHistory;
+import services.Warehouse;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
@@ -82,12 +82,32 @@ public class DispensingTerminalTest {
         }
 
     }
-    public static class HealthCardReaderImpl implements HealthCardReader{
+    private static class HealthCardReaderImpl implements HealthCardReader{
 
         @Override
         public HealthCardID getHealthcardID() throws HealthCardException {
             return new HealthCardID("ABCD1234567890");
         }
+    }
+    private static class WarehouseImpl implements Warehouse {
+        private List<ProductSaleLine> list = new ArrayList<>();
+
+        @Override
+        public void updateStock(List<ProductSaleLine> listofProducts) {
+            for (ProductSaleLine i: listofProducts){
+                list.add(i);
+            }
+        }
+
+    }
+    private static class SalesHistoryImpl implements SalesHistory {
+        public List<Sale> saleList = new ArrayList<>();
+
+
+        public void registerSale(Sale sale){
+            saleList.add(sale);
+        }
+
     }
 
     DispensingTerminal dt;
@@ -133,8 +153,9 @@ public class DispensingTerminalTest {
         dt.getePrescription();
         dt.initNewSale(5);
         dt.enterProduct(new ProductID("1234567890"));
+        List<ProductSaleLine> productSaleLines = dt.getSale().getPsl();
 
-        assertEquals(new ProductID("1234567890"), dt.getSale().getPsl().getProductID());
+        assertEquals(new ProductID("1234567890"), productSaleLines.get(productSaleLines.size()-1).getProductID());
         assertTrue(dt.getActualDispensing().getIsAcquired(new ProductID("1234567890")));
     }
 
@@ -147,5 +168,23 @@ public class DispensingTerminalTest {
 
         assertTrue(dt.getSale().isClosed());
         assertTrue(dt.getActualDispensing().getIsCompleted());
+    }
+
+    @Test
+    void realizePayment()
+            throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException,
+            ProductIDException, SaleClosedException, InsuficientExistence, QuantityMinorThanImport, SaleNotClosedException {
+
+        dt.getePrescription();
+        dt.initNewSale(5);
+        dt.enterProduct(new ProductID("1234567890"));
+        dt.finalizeSale();
+        dt.initCashPayment();
+        dt.setSalesHistory(new SalesHistoryImpl());
+        dt.setWarehouse(new WarehouseImpl());
+        dt.realizePayment(new BigDecimal(123.00));
+
+        BigDecimal change = new BigDecimal(123.00).subtract(dt.getAmount());
+        assertEquals(change, dt.getCashPayment().getpChange());
     }
 }

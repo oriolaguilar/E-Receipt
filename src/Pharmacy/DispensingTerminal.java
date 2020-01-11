@@ -39,8 +39,8 @@ public class DispensingTerminal {
     }
 
     public void enterProduct(ProductID pID) throws SaleClosedException, ConnectException, ProductIDException {
-        ProductSpecification prodSpec = SNS.getProductSpecific(pID);
         PatientContr patContr = SNS.getPatientContr(hcID);
+        ProductSpecification prodSpec = SNS.getProductSpecific(pID);
         sale.addLine(pID, prodSpec.getPrice(), patContr);
         actualDispensing.setProductAsDispensed(pID);
     }

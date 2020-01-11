@@ -38,8 +38,7 @@ public class CashPayment {
     public void setSale(Sale sale){
         this.sale = sale;
     }
-
-    public BigDecimal getpChange() {
+    public BigDecimal getChange() {
         return pChange;
     }
 }

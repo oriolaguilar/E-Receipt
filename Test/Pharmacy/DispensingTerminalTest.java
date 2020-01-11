@@ -7,7 +7,6 @@ import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
 import Pharmacy.Exceptions.*;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.*;
 import services.HealthCardReader;
 import services.NationalHealthService;
@@ -186,6 +185,6 @@ public class DispensingTerminalTest {
         dt.realizePayment(new BigDecimal(123.00));
 
         BigDecimal change = new BigDecimal(123.00).subtract(dt.getAmount());
-        assertEquals(change, dt.getCashPayment().getpChange());
+        assertEquals(change, dt.getCashPayment().getChange());
     }
 }

@@ -3,12 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pharmacy/CashPaymentTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/CashPaymentTest$SalesHistoryDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/CashPaymentTest$WarehouseDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/CashPaymentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pharmacy/CashPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pharmacy/CashPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pharmacy/DispensingTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pharmacy/DispensingTerminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$HealthCardReaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$HealthCardReaderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SNSImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SNSImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SalesHistoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$SalesHistoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$WarehouseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest$WarehouseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/DispensingTerminalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImplHCException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImplHCException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImplNotValidePresException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$HealthCardReaderImplNotValidePresException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$SalesHistoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$SalesHistoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$WarehouseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest$WarehouseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pharmacy/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/CashPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,14 +32,14 @@
     <session id="-455362057">
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="206" />
+          <entry key="JAVA" value="215" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11241" />
+          <entry key="JAVA" value="11809" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -93,10 +103,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="111" column="5" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="class#SNSImpl#0;class#DispensingTerminalTest#0" />
                 <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalTest#0" />
                 <element signature="class#WarehouseImpl#0;class#DispensingTerminalTest#0" />
@@ -107,10 +116,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="500" column="5" selection-start-line="500" selection-start-column="5" selection-end-line="500" selection-end-column="5" />
+              <folding>
+                <element signature="class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="method#getePrescription#0;class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="method#getePrescription#0;class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplConnectExGetePres#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplConnectGetPatContr#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="method#exceptionsThrowing#0;class#SNSImplConnectGetPatContr#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplConnectGetProdSpec#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="method#getePrescription#0;class#SNSImplConnectGetProdSpec#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplConnectUpdateePrec#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImplNotValidePresException#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#WarehouseImpl#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SalesHistoryImpl#0;class#DispensingTerminalExceptionsTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initCashPayment#0;class#DispensingTerminal#0" />
@@ -122,82 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/CashPayment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding>
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pharmacy/Sale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="290" column="41" selection-start-line="290" selection-start-column="41" selection-end-line="290" selection-end-column="41" />
-              <folding>
-                <element signature="class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#HealthCardReaderImplNotValidePresException#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#WarehouseImpl#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="class#SalesHistoryImpl#0;class#DispensingTerminalExceptionsTest#0" />
-                <element signature="method#dispensingActions#0;class#DispensingTerminalExceptionsTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/SaleClosedExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -304,6 +286,12 @@
               <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,10 +311,6 @@
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +335,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578774231598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578782243571" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
   </component>
   <component name="RecentsManager">
@@ -382,7 +366,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalExceptionsTest.realizePayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.enterProductConnectExceptionGetPatContr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
@@ -392,13 +376,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
-      <option name="METHOD_NAME" value="realizePayment" />
+      <option name="METHOD_NAME" value="enterProductConnectExceptionGetPatContr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalExceptionsTest.realizePaymentInsufficientExistences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.enterProductConnectExceptionGetProdSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
@@ -408,13 +392,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
-      <option name="METHOD_NAME" value="realizePaymentInsufficientExistences" />
+      <option name="METHOD_NAME" value="enterProductConnectExceptionGetProdSpec" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalExceptionsTest.realizePaymentInsuficientExistences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
@@ -424,13 +408,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
-      <option name="METHOD_NAME" value="realizePaymentInsuficientExistences" />
+      <option name="METHOD_NAME" value="finalizeSaleSaleConnectException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalExceptionsTest.realizePaymentSaleNotClosedException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.getePrescriptionConnectionExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
@@ -440,26 +424,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
-      <option name="METHOD_NAME" value="realizePaymentSaleNotClosedException" />
+      <option name="METHOD_NAME" value="getePrescriptionConnectionExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentSaleNotClosedException" />
-      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePayment" />
-      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentInsufficientExistences" />
-      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentInsuficientExistences" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.getePrescriptionConnectionExceptionTest" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductConnectExceptionGetPatContr" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductConnectExceptionGetProdSpec" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" />
       <item itemvalue="JUnit.All in E-Receipt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in E-Receipt" />
-        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentInsuficientExistences" />
-        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentInsufficientExistences" />
-        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePayment" />
-        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.realizePaymentSaleNotClosedException" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductConnectExceptionGetProdSpec" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductConnectExceptionGetPatContr" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.getePrescriptionConnectionExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -477,42 +461,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DispensingTerminalTest_realizePayment - 2020.01.11 at 20h 56m 22s.xml">
-      <configuration name="DispensingTerminalTest.realizePayment" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_realizePaymentInsuficientExistences - 2020.01.11 at 21h 23m 55s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.realizePaymentInsuficientExistences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_realizePayment - 2020.01.11 at 20h 56m 52s.xml">
-      <configuration name="DispensingTerminalTest.realizePayment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_E-Receipt - 2020.01.11 at 20h 58m 09s.xml">
+    <history-entry file="All_in_E-Receipt - 2020.01.11 at 21h 26m 05s.xml">
       <configuration name="All in E-Receipt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest - 2020.01.11 at 21h 05m 09s.xml">
-      <configuration name="DispensingTerminalTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_getePrescritptionConnectionExceptionTest - 2020.01.11 at 22h 46m 55s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.getePrescritptionConnectionExceptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePaymentSaleNotClosedException - 2020.01.11 at 21h 16m 27s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePaymentSaleNotClosedException" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_getePrescriptionConnectionExceptionTest - 2020.01.11 at 23h 07m 55s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.getePrescriptionConnectionExceptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePayment - 2020.01.11 at 21h 17m 43s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePayment" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_enterProductConnectExceptionGetPatContr - 2020.01.11 at 23h 27m 28s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.enterProductConnectExceptionGetPatContr" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePayment - 2020.01.11 at 21h 18m 20s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePayment" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_enterProductConnectExceptionGetProdSpec - 2020.01.11 at 23h 28m 27s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.enterProductConnectExceptionGetProdSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePaymentSaleNotClosedException - 2020.01.11 at 21h 20m 09s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePaymentSaleNotClosedException" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_finalizeSaleSaleConnectException - 2020.01.11 at 23h 32m 57s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePayment - 2020.01.11 at 21h 20m 16s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePayment" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_finalizeSaleSaleConnectException - 2020.01.11 at 23h 33m 56s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalExceptionsTest_realizePaymentInsufficientExistences - 2020.01.11 at 21h 23m 29s.xml">
-      <configuration name="DispensingTerminalExceptionsTest.realizePaymentInsufficientExistences" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_finalizeSaleSaleConnectException - 2020.01.11 at 23h 34m 58s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DispensingTerminalExceptionsTest_finalizeSaleSaleConnectException - 2020.01.11 at 23h 36m 27s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.finalizeSaleSaleConnectException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.14736842" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.23157895" />
       <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,7 +505,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.47508895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.3683274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +554,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" />
     <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java" />
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" />
     <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecification.java" />
@@ -643,13 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="8" column="6" selection-start-line="8" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,6 +681,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="128" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,6 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,23 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" selection-start-line="33" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -822,6 +790,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/SaleClosedExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -834,23 +812,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pharmacy/CashPayment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="206">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/HealthCardID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/ProductID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pharmacy/Exceptions/InsuficientExistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="111" column="5" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#SNSImpl#0;class#DispensingTerminalTest#0" />
             <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalTest#0" />
             <element signature="class#WarehouseImpl#0;class#DispensingTerminalTest#0" />
@@ -859,20 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/SaleClosedExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initCashPayment#0;class#DispensingTerminal#0" />
@@ -882,17 +874,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="290" column="41" selection-start-line="290" selection-start-column="41" selection-end-line="290" selection-end-column="41" />
+        <state relative-caret-position="273">
+          <caret line="500" column="5" selection-start-line="500" selection-start-column="5" selection-end-line="500" selection-end-column="5" />
           <folding>
             <element signature="class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="method#getePrescription#0;class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="method#getePrescription#0;class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#SNSImplConnectExGetePres#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#SNSImplConnectGetPatContr#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="method#exceptionsThrowing#0;class#SNSImplConnectGetPatContr#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#SNSImplConnectGetProdSpec#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="method#getePrescription#0;class#SNSImplConnectGetProdSpec#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#SNSImplConnectUpdateePrec#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#HealthCardReaderImplNotValidePresException#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#WarehouseImpl#0;class#DispensingTerminalExceptionsTest#0" />
             <element signature="class#SalesHistoryImpl#0;class#DispensingTerminalExceptionsTest#0" />
-            <element signature="method#dispensingActions#0;class#DispensingTerminalExceptionsTest#0" />
           </folding>
         </state>
       </provider>

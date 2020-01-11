@@ -160,7 +160,9 @@ public class DispensingTerminalTest {
     }
 
     @Test
-    public void finalizeSaleTest() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+    public void finalizeSaleTest() throws NotValideePrescriptionException, HealthCardException, ConnectException,
+            DispensingNotAvailableException, ProductIDException, SaleClosedException {
+
         dt.getePrescription();
         dt.initNewSale(5);
         dt.enterProduct(new ProductID("1234567890"));
@@ -186,5 +188,6 @@ public class DispensingTerminalTest {
 
         BigDecimal change = new BigDecimal(123.00).subtract(dt.getAmount());
         assertEquals(change, dt.getCashPayment().getChange());
+        assertNull(dt.getActualDispensing());
     }
 }

@@ -1,7 +1,6 @@
 package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
-import Data.Exceptions.WrongCodeException;
 import Data.HealthCardID;
 import Data.PatientContr;
 import Data.ProductID;
@@ -14,7 +13,6 @@ import services.Warehouse;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
-import java.util.Date;
 
 public class DispensingTerminal {
 
@@ -51,6 +49,9 @@ public class DispensingTerminal {
         actualDispensing.setCompleted();
     }
 
+    public void initCashPayment() {
+        cashPayment = new CashPayment();
+    }
     public void realizePayment(BigDecimal quantity) throws InsuficientExistence, QuantityMinorThanImport, SaleNotClosedException, ConnectException {
         if (!sale.isClosed())
             throw new SaleNotClosedException("La venta encara no ha estat tancada!");
@@ -60,6 +61,7 @@ public class DispensingTerminal {
         try {
             SNS.updateePrescription(hcID, SNS.getePrescription(hcID));
         } catch (HealthCardException | NotValideePrescriptionException ignored){}
+        actualDispensing = null;
     }
 
     public void setWarehouse(Warehouse warehouse){
@@ -67,10 +69,6 @@ public class DispensingTerminal {
     }
     public void setSalesHistory(SalesHistory salesHistory){
         cashPayment.setSalesHistory(salesHistory);
-    }
-    public void initCashPayment() {
-        cashPayment = new CashPayment();
-
     }
     public void setSNS(NationalHealthService SNS){
         this.SNS = SNS;

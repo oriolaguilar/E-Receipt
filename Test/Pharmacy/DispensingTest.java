@@ -1,7 +1,6 @@
 package Pharmacy;
 
 import Data.Exceptions.ProductIDException;
-import Data.Exceptions.WrongCodeException;
 import Data.ProductID;
 import Pharmacy.Exceptions.DispensingNotAvailableException;
 import org.junit.jupiter.api.BeforeEach;
@@ -23,7 +22,7 @@ public class DispensingTest {
     byte nOrder = 5;
 
     @BeforeEach
-    public void setUp() throws WrongCodeException, ProductIDException {
+    public void setUp() throws ProductIDException {
         medicinePrescription  = new MedicineDispensingLine
                 (new ProductID("1010101010"), "Prendre cada 8 hores");
         medicinePrescription2 = new MedicineDispensingLine(
@@ -43,7 +42,7 @@ public class DispensingTest {
     }
 
     @Test
-    public void setProductAsDispensedTest() throws WrongCodeException, ProductIDException {
+    public void setProductAsDispensedTest() throws ProductIDException {
         dispensation.setProductAsDispensed(new ProductID("1010101010"));
         assertTrue(medicinePrescription.getAcquired());
     }

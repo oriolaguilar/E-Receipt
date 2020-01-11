@@ -23,7 +23,7 @@ public class CashPayment {
         if(amount.compareTo(quantity) > 0){
             throw new QuantityMinorThanImport("Quantity is lower than price");
         }
-        pImport = quantity;
+        pImport = amount;
         pChange = quantity.subtract(amount);
         warehouse.updateStock(sale.getPsl());
         salesHistory.registerSale(sale);

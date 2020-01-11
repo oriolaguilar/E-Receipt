@@ -10,11 +10,8 @@ import java.util.*;
 public class Dispensing {
 
     private byte nOrder;
-
     private Date initDate, finalDate;
-
     private boolean isCompleted;
-
     List<MedicineDispensingLine> prescription;
 
     public Dispensing(byte nOrder, Date initDate, Date finalDate, List<MedicineDispensingLine> prescription){
@@ -79,33 +76,8 @@ public class Dispensing {
         return nOrder == dispensing.nOrder;
     }
 
-    public byte getnOrder(){
-        return nOrder;
-    }
-    public void setnOrder(byte newNOrder){
-        nOrder = newNOrder;
-    }
-    public Date getInitDate(){
-        return initDate;
-    }
-    public void setInitDate(Date newInitDate){
-        initDate = newInitDate;
-    }
-    public Date getFinalDate(){
-        return finalDate;
-    }
-    public void setFinalDate(Date newFinalDate){
-        finalDate = newFinalDate;
-    }
     public boolean getIsCompleted(){
         return isCompleted;
     }
-    public List<MedicineDispensingLine> getPrescription(){
-        return prescription;
-    }
-    public void setPrescriptionet(List<MedicineDispensingLine> newPrescription){
-        prescription = newPrescription;
-    }
-
 
 }

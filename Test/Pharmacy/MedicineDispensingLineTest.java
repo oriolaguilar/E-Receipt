@@ -14,12 +14,12 @@ public class MedicineDispensingLineTest {
     MedicineDispensingLine medicinePresc;
 
     @BeforeEach
-    public void setUp() throws WrongCodeException, ProductIDException {
+    public void setUp() throws ProductIDException {
         medicinePresc = new MedicineDispensingLine(new ProductID("1234567890"), "Prendre cada 8 hores.");
     }
 
     @Test
-    public void getProductID() throws WrongCodeException, ProductIDException {
+    public void getProductID() throws ProductIDException {
         assertEquals(new ProductID("1234567890"), medicinePresc.getMedicine());
     }
 

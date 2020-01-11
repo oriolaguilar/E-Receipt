@@ -11,20 +11,14 @@ import Pharmacy.Exceptions.SaleClosedException;
 
 
 public class Sale {
+
     private int saleCode;
-
     private Date date;
-
     private BigDecimal amount= new BigDecimal(0);
-
     private boolean isClosed;
-
     private static final BigDecimal IVA = new BigDecimal (1.21);
-
     private List<BigDecimal> prices = new ArrayList<>();
-
     private List<ProductSaleLine> psl;
-
     private Dispensing dispensing;
 
     public Sale(int saleCode){
@@ -54,6 +48,7 @@ public class Sale {
         amount = IVA.multiply(amount);
     }
 
+
     public BigDecimal getAmount() throws SaleClosedException{
         if (isClosed()){
             throw new SaleClosedException("Sale is closed");
@@ -74,7 +69,6 @@ public class Sale {
     public boolean isClosed() {
         return isClosed;
     }
-
     public int getSaleCode(){return this.saleCode;}
     public List<ProductSaleLine> getPsl(){
         return this.psl;

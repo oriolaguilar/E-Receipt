@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0003ab-a463-4852-996a-f1abc4219b46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +18,31 @@
     <session id="-455362057">
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="185" />
+          <entry key="JAVA" value="187" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8738" />
+          <entry key="JAVA" value="9598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -82,11 +85,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+            <state relative-caret-position="-510">
+              <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#SNSImpl#0;class#DispensingTerminalTest#0" />
+                <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+              <folding>
+                <element signature="class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="class#HealthCardReaderImplNotValidePresException#0;class#DispensingTerminalExceptionsTest#0" />
+                <element signature="e#6886#6887#0" expanded="true" />
+                <element signature="e#6931#6932#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,16 +120,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="-13">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
                 <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/Dispensing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="510">
               <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="357">
               <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
@@ -133,11 +155,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pharmacy/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="578">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -216,18 +238,19 @@
         <option value="$PROJECT_DIR$/src/services/HealthCardReader.java" />
         <option value="$PROJECT_DIR$/Test/Pharmacy/DispensingTest.java" />
         <option value="$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java" />
-        <option value="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" />
         <option value="$PROJECT_DIR$/src/Pharmacy/ProductSpecification.java" />
         <option value="$PROJECT_DIR$/src/Pharmacy/Dispensing.java" />
+        <option value="$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java" />
         <option value="$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java" />
+        <option value="$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="983" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -238,6 +261,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -254,74 +315,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-Receipt" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Pharmacy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E-Receipt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578698906221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578759868099" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
   </component>
   <component name="RecentsManager">
@@ -343,99 +341,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DispensingTerminalTest">
-    <configuration name="DispensingTerminalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DispensingTerminalExceptionsTest.saleisClosed">
+    <configuration name="DispensingTerminalExceptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pharmacy.*" />
+          <option name="PATTERN" value="Pharmacy.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pharmacy" />
-      <option name="MAIN_CLASS_NAME" value="Pharmacy.DispensingTerminalTest" />
+      <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalTest.enterProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.enterProductPIDExceprion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pharmacy.*" />
+          <option name="PATTERN" value="Pharmacy.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pharmacy" />
-      <option name="MAIN_CLASS_NAME" value="Pharmacy.DispensingTerminalTest" />
-      <option name="METHOD_NAME" value="enterProductTest" />
+      <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
+      <option name="METHOD_NAME" value="enterProductPIDExceprion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalTest.finalizeSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.initNewSaleNotAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pharmacy.*" />
+          <option name="PATTERN" value="Pharmacy.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pharmacy" />
-      <option name="MAIN_CLASS_NAME" value="Pharmacy.DispensingTerminalTest" />
-      <option name="METHOD_NAME" value="finalizeSale" />
+      <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
+      <option name="METHOD_NAME" value="initNewSaleNotAvailable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalTest.getePrescriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.initNewSaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pharmacy.*" />
+          <option name="PATTERN" value="Pharmacy.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pharmacy" />
-      <option name="MAIN_CLASS_NAME" value="Pharmacy.DispensingTerminalTest" />
-      <option name="METHOD_NAME" value="getePrescriptionTest" />
+      <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
+      <option name="METHOD_NAME" value="initNewSaleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispensingTerminalTest.initNewSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DispensingTerminalExceptionsTest.saleisClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-Receipt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pharmacy.*" />
+          <option name="PATTERN" value="Pharmacy.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pharmacy" />
-      <option name="MAIN_CLASS_NAME" value="Pharmacy.DispensingTerminalTest" />
-      <option name="METHOD_NAME" value="initNewSale" />
+      <option name="PACKAGE_NAME" value="Pharmacy.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Pharmacy.Exceptions.DispensingTerminalExceptionsTest" />
+      <option name="METHOD_NAME" value="saleisClosed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DispensingTerminalTest.initNewSale" />
-      <item itemvalue="JUnit.DispensingTerminalTest.enterProductTest" />
-      <item itemvalue="JUnit.DispensingTerminalTest.finalizeSale" />
-      <item itemvalue="JUnit.DispensingTerminalTest" />
-      <item itemvalue="JUnit.DispensingTerminalTest.getePrescriptionTest" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.initNewSaleTest" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.initNewSaleNotAvailable" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductPIDExceprion" />
+      <item itemvalue="JUnit.DispensingTerminalExceptionsTest.saleisClosed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DispensingTerminalTest" />
-        <item itemvalue="JUnit.DispensingTerminalTest.getePrescriptionTest" />
-        <item itemvalue="JUnit.DispensingTerminalTest.finalizeSale" />
-        <item itemvalue="JUnit.DispensingTerminalTest.enterProductTest" />
-        <item itemvalue="JUnit.DispensingTerminalTest.initNewSale" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.saleisClosed" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.enterProductPIDExceprion" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.initNewSaleNotAvailable" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest" />
+        <item itemvalue="JUnit.DispensingTerminalExceptionsTest.initNewSaleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -453,42 +451,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 32m 11s.xml">
-      <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_getePrescriptionTest - 2020.01.11 at 16h 47m 30s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.getePrescriptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 37m 49s.xml">
-      <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_initNewSaleTest - 2020.01.11 at 16h 52m 19s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.initNewSaleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 39m 40s.xml">
-      <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_initNewSaleTest - 2020.01.11 at 16h 54m 27s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.initNewSaleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 41m 18s.xml">
-      <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest - 2020.01.11 at 16h 55m 11s.xml">
+      <configuration name="DispensingTerminalExceptionsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_enterProductTest - 2020.01.10 at 23h 44m 50s.xml">
-      <configuration name="DispensingTerminalTest.enterProductTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_initNewSaleNotAvailable - 2020.01.11 at 17h 13m 08s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.initNewSaleNotAvailable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_finalizeSale - 2020.01.10 at 23h 49m 51s.xml">
-      <configuration name="DispensingTerminalTest.finalizeSale" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_enterProductPIDExceprion - 2020.01.11 at 17h 17m 19s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.enterProductPIDExceprion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_finalizeSale - 2020.01.10 at 23h 51m 36s.xml">
-      <configuration name="DispensingTerminalTest.finalizeSale" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_enterProductPIDExceprion - 2020.01.11 at 17h 17m 41s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.enterProductPIDExceprion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest - 2020.01.10 at 23h 52m 21s.xml">
-      <configuration name="DispensingTerminalTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_saleisClosed - 2020.01.11 at 17h 23m 23s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.saleisClosed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest_getePrescriptionTest - 2020.01.11 at 00h 14m 13s.xml">
-      <configuration name="DispensingTerminalTest.getePrescriptionTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_saleisClosed - 2020.01.11 at 17h 23m 41s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.saleisClosed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DispensingTerminalTest - 2020.01.11 at 00h 14m 22s.xml">
-      <configuration name="DispensingTerminalTest" configurationId="JUnit" />
+    <history-entry file="DispensingTerminalExceptionsTest_saleisClosed - 2020.01.11 at 17h 24m 06s.xml">
+      <configuration name="DispensingTerminalExceptionsTest.saleisClosed" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22267206" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" sideWeight="0.5031645" side_tool="true" weight="0.16257995" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,15 +495,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.47508895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.16725978" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.53736657" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.2153025" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16548042" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.14234875" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16192171" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30604982" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,163 +544,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/Exceptions/SaleClosedExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Interfaces/ProductSaleLineInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Interfaces/MedicalPrescrition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/Exceptions/HealthCardException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/ePrescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/HealthCardIDInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSaleLineTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Interfaces/ProductSaleLineInter.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Interfaces/MedicalPrescrition.java" />
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/Exceptions/HealthCardException.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/SaleClosedException.java" />
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/ProductSpecificationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Sale.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSaleLine.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/ProductSpecification.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/MedicineDispensingLine.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/ePrescription.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Dispensing.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/Exceptions/NotValideePrescriptionException.java" />
+    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/HealthCardIDInter.java" />
+    <entry file="file://$PROJECT_DIR$/src/Data/Interfaces/PatientContrInter.java" />
+    <entry file="file://$PROJECT_DIR$/src/farmacy/DispensingTerminal.java" />
     <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -723,16 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/MedicineDispensingLineTest.java" />
     <entry file="file://$PROJECT_DIR$/Test/Data/TestInterfaces/DataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -747,16 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/DispensingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/DispensingTest.java" />
     <entry file="file://$PROJECT_DIR$/Test/Data/ProductIDSetUpExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -781,19 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/farmacy/SaleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#ProductIDDouble#0;class#SaleTest#0" />
-            <element signature="class#PatientContrDouble#0;class#SaleTest#0" />
-            <element signature="class#ProductSaleLineDouble#0;class#SaleTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/farmacy/SaleTest.java" />
     <entry file="file://$PROJECT_DIR$/Test/Data/HealthCardIdSetUpExceptionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -839,18 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Pharmacy/ProductSpecificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Pharmacy/ProductSpecificationTest.java" />
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/ProductSaleLineTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -893,13 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/HealthCardReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/HealthCardReaderImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/services/NationalHealthService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -947,17 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/PatientContr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -968,10 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pharmacy/Sale.java">
+    <entry file="file://$PROJECT_DIR$/src/Pharmacy/Dispensing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="510">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -980,15 +779,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="357">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pharmacy/Dispensing.java">
+    <entry file="file://$PROJECT_DIR$/src/Pharmacy/ProductSaleLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pharmacy/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -997,24 +807,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pharmacy/DispensingTerminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="-13">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
             <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Pharmacy/DispensingTerminalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+        <state relative-caret-position="-510">
+          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#SNSImpl#0;class#DispensingTerminalTest#0" />
+            <element signature="class#HealthCardReaderImpl#0;class#DispensingTerminalTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Pharmacy/Exceptions/DispensingTerminalExceptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+          <folding>
+            <element signature="class#SNSImpl#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#SNSImplNotAvailable#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#HealthCardReaderImplHCException#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="class#HealthCardReaderImplNotValidePresException#0;class#DispensingTerminalExceptionsTest#0" />
+            <element signature="e#6886#6887#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

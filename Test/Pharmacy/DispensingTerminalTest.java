@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class DispensingTerminalTest {
 
-    private static class SNS implements NationalHealthService{
+    private static class SNSImpl implements NationalHealthService{
 
         @Override
         public Dispensing getePrescription(HealthCardID hcID)
@@ -93,10 +93,10 @@ public class DispensingTerminalTest {
     DispensingTerminal dt;
 
     @BeforeEach
-    private void setUp(){
+    public void setUp(){
         dt = new DispensingTerminal();
         dt.setHCReader(new HealthCardReaderImpl());
-        dt.setSNS(new SNS());
+        dt.setSNS(new SNSImpl());
     }
 
 
@@ -110,7 +110,7 @@ public class DispensingTerminalTest {
     }
 
     @Test
-    public void initNewSale() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException, DispensingNotAvailableException {
+    public void initNewSaleTest() throws ProductIDException, HealthCardException, ConnectException, NotValideePrescriptionException, DispensingNotAvailableException {
         Dispensing dispensingExpected = createDispensing();
 
         dt.getePrescription();
@@ -139,7 +139,7 @@ public class DispensingTerminalTest {
     }
 
     @Test
-    public void finalizeSale() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+    public void finalizeSaleTest() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
         dt.getePrescription();
         dt.initNewSale(5);
         dt.enterProduct(new ProductID("1234567890"));

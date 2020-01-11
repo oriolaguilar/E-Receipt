@@ -72,14 +72,12 @@ public class DispensingTerminal {
         cashPayment = new CashPayment();
 
     }
-
     public void setSNS(NationalHealthService SNS){
         this.SNS = SNS;
     }
     public void setHCReader(HealthCardReader HCReader){
         this.HCReader = HCReader;
     }
-
     public Dispensing getActualDispensing(){
         return actualDispensing;
     }
@@ -92,7 +90,4 @@ public class DispensingTerminal {
     public CashPayment getCashPayment() {
         return cashPayment;
     }
-
-    public void realizePayment() {}
-    public void printNextDispensingSheet() {}
 }

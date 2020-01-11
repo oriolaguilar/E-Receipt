@@ -90,13 +90,14 @@ public class DispensingTerminalTest {
         }
     }
     private static class WarehouseImpl implements Warehouse {
-        private List<ProductSaleLine> list = new ArrayList<>();
+        private int quantity = 3;
 
         @Override
-        public void updateStock(List<ProductSaleLine> listofProducts) {
-            for (ProductSaleLine i: listofProducts){
-                list.add(i);
+        public void updateStock(List<ProductSaleLine> listofProducts) throws InsuficientExistence {
+            if (quantity < listofProducts.size()){
+                throw new InsuficientExistence("No hi ha suficiengs medicaments");
             }
+            quantity -= listofProducts.size();
         }
 
     }

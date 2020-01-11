@@ -12,6 +12,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import services.HealthCardReader;
 import services.NationalHealthService;
+import services.SalesHistory;
+import services.Warehouse;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
@@ -161,6 +163,28 @@ public class DispensingTerminalExceptionsTest {
         }
     }
 
+    private static class WarehouseImpl implements Warehouse {
+        private int quantity = 3;
+
+        @Override
+        public void updateStock(List<ProductSaleLine> listofProducts) throws InsuficientExistence {
+            if (quantity < listofProducts.size()){
+                throw new InsuficientExistence("No hi ha suficiengs medicaments");
+            }
+            quantity -= listofProducts.size();
+        }
+
+    }
+    private static class SalesHistoryImpl implements SalesHistory {
+        public List<Sale> saleList = new ArrayList<>();
+
+
+        public void registerSale(Sale sale){
+            saleList.add(sale);
+        }
+
+    }
+
     DispensingTerminal dt;
 
     @BeforeEach
@@ -218,6 +242,56 @@ public class DispensingTerminalExceptionsTest {
                 () -> dt.enterProduct(new ProductID("1234567891")));
         assertThrows(SaleClosedException.class,
                 () -> dt.finalizeSale());
+    }
+
+    private void dispensingActions() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+        dt.setSNS(new SNSImpl());
+        dt.setHCReader(new HealthCardReaderImpl());
+        dt.getePrescription();
+        dt.initNewSale(8);
+        dt.enterProduct(new ProductID("1234567890"));
+    }
+
+    @Test
+    public void realizePaymentSaleNotClosedException() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+
+        dispensingActions();
+        dt.initCashPayment();
+        dt.setWarehouse(new WarehouseImpl());
+        dt.setSalesHistory(new SalesHistoryImpl());
+
+        assertThrows(SaleNotClosedException.class,
+                () -> dt.realizePayment(new BigDecimal(123)));
+    }
+
+    @Test
+    public void realizePaymentQuantityMinor() throws NotValideePrescriptionException, HealthCardException, ConnectException, DispensingNotAvailableException, ProductIDException, SaleClosedException {
+
+        dispensingActions();
+        dt.finalizeSale();
+        dt.initCashPayment();
+        dt.setWarehouse(new WarehouseImpl());
+        dt.setSalesHistory(new SalesHistoryImpl());
+
+        assertThrows(QuantityMinorThanImport.class,
+                () -> dt.realizePayment(new BigDecimal(0.23)));
+    }
+
+    @Test
+    public void realizePaymentInsuficientExistences() throws ConnectException, SaleClosedException, HealthCardException, ProductIDException, NotValideePrescriptionException, DispensingNotAvailableException {
+        dispensingActions();
+        dt.enterProduct(new ProductID("1234567890"));
+        dt.enterProduct(new ProductID("1234567890"));
+        dt.enterProduct(new ProductID("1234567890"));
+        dt.finalizeSale();
+        dt.initCashPayment();
+        dt.setWarehouse(new WarehouseImpl());
+        dt.setSalesHistory(new SalesHistoryImpl());
+
+        assertThrows(InsuficientExistence.class,
+                () -> dt.realizePayment(new BigDecimal(50.23)));
+
+
 
     }
 }

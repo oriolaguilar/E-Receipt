@@ -6,7 +6,6 @@ import services.SalesHistory;
 import services.Warehouse;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 public class CashPayment {
 
@@ -19,7 +18,7 @@ public class CashPayment {
 
     public CashPayment(){}
 
-    void realizePayment(BigDecimal amount, BigDecimal quantity) throws QuantityMinorThanImport, InsuficientExistence {
+    public void realizePayment(BigDecimal amount, BigDecimal quantity) throws QuantityMinorThanImport, InsuficientExistence {
         if(amount.compareTo(quantity) > 0){
             throw new QuantityMinorThanImport("Quantity is lower than price");
         }
